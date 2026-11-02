@@ -7,7 +7,7 @@
     "authors": "Obley MB, Milston-Clements RH, Bollmann SR, Blouin MS.",
     "journal": "PloS one",
     "year": 2025,
-    "citedByCount": 0,
+    "citedByCount": 1,
     "subfield": "Statistical & Population Genetics",
     "venue_tier": "Open-Review Megajournal",
     "cohort_id": "PMC12707659",
@@ -107,7 +107,7 @@
     "epistemic_stage": "Basic/Mechanistic Discovery",
     "ai_critique_count": 5,
     "ai_critique_titles": [
-      "Systemic Protocol Confounding Between Postnatal and Adult Stages (Methods, Lines 56–76)",
+      "Systemic Protocol Confounding Between Postnatal and Adult Stages (Methods, Lines 56\u201376)",
       "Cellular Heterogeneity and Somatic/Spermatocyte Contamination Driving \"Adult SPG\" Signatures (Results, Lines 48, 55, 94)",
       "Peak Calling Bias on Unbalanced Merged BAMs (Methods, Line 106)",
       "Omission of Batch Covariate in Differential Expression and Accessibility Models (Methods, Lines 89 & 111)",
@@ -189,7 +189,7 @@
     "epistemic_stage": "Translational/Preclinical/Biomarker",
     "ai_critique_count": 4,
     "ai_critique_titles": [
-      "Non-Independence of Drug–SE Pairs in Fisher's Exact Tests and Binomial Logit Models (Methods, Line 118)",
+      "Non-Independence of Drug\u2013SE Pairs in Fisher's Exact Tests and Binomial Logit Models (Methods, Line 118)",
       "Asymmetry in the Indication-Confounding Filter Definition (Results, Line 30 vs. Methods, Line 108)",
       "Conditioning on Observed SEs in Modifier Analyses (Results, Line 48; Fig 2; Methods, Line 118)",
       "Minor Editorial / Placeholder Artifacts (Lines 108 & 125)"
@@ -351,10 +351,10 @@
     "epistemic_stage": "Basic/Mechanistic Discovery",
     "ai_critique_count": 4,
     "ai_critique_titles": [
-      "Factorial ($2 \\times 2$) Design Analyzed via One-Way ANOVA Instead of Two-Way Mixed-Effects ANOVA (Results, Lines 100–119; Figs 4 & 5; Methods, Line 114)",
-      "Pairing of Pooled Yolk Sacs with Single Individual Embryos in Correlation Analyses (Results, Line 113; Fig 5I–K)",
+      "Factorial ($2 \\times 2$) Design Analyzed via One-Way ANOVA Instead of Two-Way Mixed-Effects ANOVA (Results, Lines 100\u2013119; Figs 4 & 5; Methods, Line 114)",
+      "Pairing of Pooled Yolk Sacs with Single Individual Embryos in Correlation Analyses (Results, Line 113; Fig 5I\u2013K)",
       "Reference Annotation Typo in Human Bulk RNA-Seq Reanalysis Methods (Methods, Line 107)",
-      "Dietary Background Difference in Figure 1—Figure Supplement 2B"
+      "Dietary Background Difference in Figure 1\u2014Figure Supplement 2B"
     ],
     "ai_claim_tags": [
       "Well Supported",
@@ -440,7 +440,7 @@
     "epistemic_stage": "Basic/Mechanistic Discovery",
     "ai_critique_count": 6,
     "ai_critique_titles": [
-      "Technical Asymmetry Between Foreground De Novo Transcriptomes and Background Reference Genomes combined with Anomalous $d_S$ Inflation (Methods, Lines 11–15; Results, Line 106)",
+      "Technical Asymmetry Between Foreground De Novo Transcriptomes and Background Reference Genomes combined with Anomalous $d_S$ Inflation (Methods, Lines 11\u201315; Results, Line 106)",
       "Conflation of HyPhy `RELAX` Intensification ($K > 1$) with Positive Selection (Results, Line 104; Discussion, Line 134; Fig 5)",
       "Foreground Specification in the `two-ratio` Model vs. Phylogenetic Topology (Results, Line 66; Methods, Line 15 of block 2)",
       "Degrees of Freedom in `CodeML` Branch-Site LRT (Methods, Line 22 of block 2)",
@@ -491,7 +491,7 @@
         "Severe methodological asymmetry in orthogroup construction: comparing de novo short-read Trinity RNA-seq assemblies (clustered at 95% identity) for the two focal dioecious species (T. pilosa and T. kirilowii) against reference genome CDS annotations for the two monoecious outgroups (T. anguina and L. cylindrica), which systematically inflates terminal-branch dN, dS, and frameshift/indel alignment artifacts on the focal T. pilosa branch.",
         "Unacknowledged 2.35-fold spike in synonymous substitution rates (dS) in male-biased floral bud genes (median dS = 0.0728 vs. 0.0310 in unbiased genes, Wilcoxon P = 2.2e-16 in Free-Ratio and P = 6.215e-16 in Two-Ratio models, with extreme dS ~ 2.0 outliers), demonstrating that divergence in male-biased orthogroups is heavily driven by paralogous/allelic mis-assembly rather than positive selection on dN alone.",
         "Misinterpretation of the HyPhy RELAX selection intensity parameter K > 1 (which tests for intensification of overall selection affecting both purifying omega < 1 and positive omega > 1 regimes) as a standalone test of 'positive selection', resulting in near-zero concordance with PAML Branch-Site Model A (only 1 overlapping gene between 98 Branch-Site and 39 RELAX candidates).",
-        "10-fold arithmetic error in the reported percentage of sex-linked male-biased genes in Discussion Line 141 ('3/343 = 0.087%' instead of 0.875%)—which was ironically introduced by Reviewer #3 in peer review and copied verbatim by the authors.",
+        "10-fold arithmetic error in the reported percentage of sex-linked male-biased genes in Discussion Line 141 ('3/343 = 0.087%' instead of 0.875%)\u2014which was ironically introduced by Reviewer #3 in peer review and copied verbatim by the authors.",
         "Uncontrolled tissue-composition confounding between multi-flower racemose male buds (containing mature pre-anthesis pollen/anthers) and solitary female buds, and absence of multiple-testing correction across the 18 pairwise tests in Table S7."
       ],
       "human_reviewer_anomalies": "None",
@@ -613,9 +613,9 @@
     "epistemic_stage": "Clinical/Observational",
     "ai_critique_count": 5,
     "ai_critique_titles": [
-      "Complete Omission of Heterogeneity Metrics ($I^2$, $\\tau^2$, $Q$) and Implausible T1DM Confidence Interval Width (Abstract, Line 16; Results, Lines 141–154)",
+      "Complete Omission of Heterogeneity Metrics ($I^2$, $\\tau^2$, $Q$) and Implausible T1DM Confidence Interval Width (Abstract, Line 16; Results, Lines 141\u2013154)",
       "Direct Contradiction in Age Inclusion/Exclusion Criteria and Confounding by Age at Sampling (Abstract, Line 16 vs. Methods, Line 44 & Table 1)",
-      "Unweighted Vote-Counting and Non-Systematic Comparator Selection in the Bacterial Composition Heatmap (Methods, Line 68; Results, Line 159–167; Fig 3)",
+      "Unweighted Vote-Counting and Non-Systematic Comparator Selection in the Bacterial Composition Heatmap (Methods, Line 68; Results, Line 159\u2013167; Fig 3)",
       "Overlapping Cohorts Across Disease Categories (Results, Line 154)",
       "Single-Reviewer Data Extraction and Lack of Protocol Registration (Methods, Lines 39, 54, 64)"
     ],
@@ -664,7 +664,7 @@
         "Non-systematic cherry-picking of only 4 comparator papers ([115-118]) outside the PRISMA search to construct the 'C-section' and 'no breastfeeding' reference profiles in the ComplexHeatmap clustering analysis, combined with unadjusted binary vote-counting (+1/-1/0) across studies of vastly different sample sizes."
       ],
       "human_reviewer_anomalies": "Generic/Suspect Boilerplate",
-      "human_anomaly_details": "Both Reviewer #1 and Reviewer #2 exhibit strong hallmarks of LLM-generated peer review reports. Reviewer #1 consists of 10 generic textbook bullet points—including falsely claiming 'Limiting the included studies to English-only publications may introduce language bias' when the manuscript explicitly stated 'without language restrictions'—and Reviewer #2 consists of 5 paragraphs of generic praise ('This manuscript offers an insightful and timely exploration... It’s clear that a lot of thought and effort went into this work...')."
+      "human_anomaly_details": "Both Reviewer #1 and Reviewer #2 exhibit strong hallmarks of LLM-generated peer review reports. Reviewer #1 consists of 10 generic textbook bullet points\u2014including falsely claiming 'Limiting the included studies to English-only publications may introduce language bias' when the manuscript explicitly stated 'without language restrictions'\u2014and Reviewer #2 consists of 5 paragraphs of generic praise ('This manuscript offers an insightful and timely exploration... It\u2019s clear that a lot of thought and effort went into this work...')."
     }
   },
   {
@@ -697,8 +697,8 @@
     "ai_critique_count": 5,
     "ai_critique_titles": [
       "Reverting to Unadjusted $p \\le 0.001$ After Complete Null Results Under Multiple-Testing Correction (Methods, Line 99; Results, Lines 142 & 144; Abstract, Line 8)",
-      "Internal Mathematical and Tabular Inconsistencies in Table 2 and Discussion (Results, Table 2, Lines 171–198; Discussion, Line 8 of block 2)",
-      "Population-Level Pseudoreplication and Single-Population Confounding on $\\text{PC1}_{\\text{SNP}}$ (Table 1; Results, Lines 133–145)",
+      "Internal Mathematical and Tabular Inconsistencies in Table 2 and Discussion (Results, Table 2, Lines 171\u2013198; Discussion, Line 8 of block 2)",
+      "Population-Level Pseudoreplication and Single-Population Confounding on $\\text{PC1}_{\\text{SNP}}$ (Table 1; Results, Lines 133\u2013145)",
       "Confounding of Common Garden Location with Sampling Year and Season (Methods, Line 74)",
       "RNA-Seq Variant Calling Bias (Methods, Line 89)"
     ],
@@ -1130,7 +1130,7 @@
     "ai_critique_titles": [
       "Implicit Context-Demeaning Assumption in the Derivation of Equation 3 (Methods, Line 209)",
       "Minor Parameter Discrepancies Between Main Text and Methods in Simulations",
-      "Typographical Note in Appendix 1—figure 3 Caption"
+      "Typographical Note in Appendix 1\u2014figure 3 Caption"
     ],
     "ai_claim_tags": [
       "Well Supported",
@@ -1183,10 +1183,10 @@
     "pmid": "41166379",
     "doi": "10.1371/journal.pcbi.1013614",
     "title": "HMFGraph: Novel Bayesian approach for recovering biological networks.",
-    "authors": "Korhonen AE, Sarala O, Hautamäki T, Kuismin M, Sillanpää MJ.",
+    "authors": "Korhonen AE, Sarala O, Hautam\u00e4ki T, Kuismin M, Sillanp\u00e4\u00e4 MJ.",
     "journal": "PLoS computational biology",
     "year": 2025,
-    "citedByCount": 0,
+    "citedByCount": 1,
     "subfield": "Cancer & Microbiome",
     "venue_tier": "Selective Flagship / Society",
     "cohort_id": "PMC12591435",
@@ -1666,7 +1666,7 @@
     "pmid": "40208878",
     "doi": "10.1371/journal.pgen.1011599",
     "title": "The identification of blood-derived response eQTLs reveals complex effects of regulatory variants on inflammatory and infectious disease risk.",
-    "authors": "Liefferinckx C, Stern D, Perée H, Bottieau J, Mayer A, Dubussy C, Quertinmont E, Tafciu V, Minsart C, Petrov V, Kvasz A, Coppieters W, Karim L, Rahmouni S, Georges M, Franchimont D.",
+    "authors": "Liefferinckx C, Stern D, Per\u00e9e H, Bottieau J, Mayer A, Dubussy C, Quertinmont E, Tafciu V, Minsart C, Petrov V, Kvasz A, Coppieters W, Karim L, Rahmouni S, Georges M, Franchimont D.",
     "journal": "PLoS genetics",
     "year": 2025,
     "citedByCount": 6,
@@ -1751,7 +1751,7 @@
         }
       ],
       "ai_only_critical_catches": [
-        "Unbalanced post-QC sample sizes across conditions (n=290 in TCR vs. n=354 in CTRL, an 18% sample size reduction) directly confounding the binary FDR-thresholded claim that TCR stimulation causes a biological loss of cis-eQTLs (1,011 modules vs. 1,196–1,275)",
+        "Unbalanced post-QC sample sizes across conditions (n=290 in TCR vs. n=354 in CTRL, an 18% sample size reduction) directly confounding the binary FDR-thresholded claim that TCR stimulation causes a biological loss of cis-eQTLs (1,011 modules vs. 1,196\u20131,275)",
         "Circular covariate optimization: selecting 29 to 38 expression principal components per condition specifically to maximize the number of discovered cis-eGenes without reporting the exact number of PCs removed per condition",
         "Subjective manual tuning of GWAS locus window boundaries (_a, _b modified suffixes in S9 Data) and reliance on unadjusted nominal permutation p-values (p < 0.05) without multiple-testing correction across hundreds of tested locus-condition-gene pairs",
         "Repeated immunological terminology error referring to activating anti-CD3/anti-CD28 antibodies as a 'TCR antagonist' instead of a TCR agonist throughout the Abstract, Introduction, Discussion, and Methods",
@@ -1862,7 +1862,7 @@
     "pmid": "41144397",
     "doi": "10.1371/journal.pone.0335224",
     "title": "Antibody response to tetanus, diphtheria, poliomyelitis, hepatitis B, and H. influenzae b vaccines in allogeneic hematopoietic stem cell transplant adult recipients: A multicenter trial.",
-    "authors": "Epaulard O, Carré M, Hermet E, Corbin V, Tavernier E, Botelho-Nevers E, Daguindau E, Brunel AS, Rohrlich PS, Risso K, Gallet S, Gonnet N, Touati S, Manceau M, Thiebault A.",
+    "authors": "Epaulard O, Carr\u00e9 M, Hermet E, Corbin V, Tavernier E, Botelho-Nevers E, Daguindau E, Brunel AS, Rohrlich PS, Risso K, Gallet S, Gonnet N, Touati S, Manceau M, Thiebault A.",
     "journal": "PloS one",
     "year": 2025,
     "citedByCount": 1,
@@ -2073,9 +2073,9 @@
     "epistemic_stage": "Basic/Mechanistic Discovery",
     "ai_critique_count": 4,
     "ai_critique_titles": [
-      "Annotation Depth and Assembly Quality Confounding in the 206-Mammal Comparative Splicing Analysis (Fig 7D–E)",
-      "Pseudoreplication vs. Biological Replication in Confocal Image Quantification (Fig 4B–C vs. Fig 5A–B) and Multiple Testing",
-      "RNA-seq Differential Expression Thresholds and Unreported Replicate Structure (Fig 1B–D)",
+      "Annotation Depth and Assembly Quality Confounding in the 206-Mammal Comparative Splicing Analysis (Fig 7D\u2013E)",
+      "Pseudoreplication vs. Biological Replication in Confocal Image Quantification (Fig 4B\u2013C vs. Fig 5A\u2013B) and Multiple Testing",
+      "RNA-seq Differential Expression Thresholds and Unreported Replicate Structure (Fig 1B\u2013D)",
       "Sequence Alignment Identity Discrepancy (`rsIFITMa` vs. `rsIFITMb`)"
     ],
     "ai_claim_tags": [
@@ -2395,7 +2395,7 @@
         }
       ],
       "ai_only_critical_catches": [
-        "Mathematical impossibility in reported sequencing depths (Results, line 140): the authors report an 'overall average sequencing depth of 8,176x across all samples (varying from 325x to 29,256x)', yet two sentences later state that the lowest segment average depth across all samples was 199x (NA) and the highest segment average depth was 419x (PB1)—mathematically, the overall mean across segments cannot be 8,176x (>20-fold higher than the maximum segment mean of 419x)",
+        "Mathematical impossibility in reported sequencing depths (Results, line 140): the authors report an 'overall average sequencing depth of 8,176x across all samples (varying from 325x to 29,256x)', yet two sentences later state that the lowest segment average depth across all samples was 199x (NA) and the highest segment average depth was 419x (PB1)\u2014mathematically, the overall mean across segments cannot be 8,176x (>20-fold higher than the maximum segment mean of 419x)",
         "Sample-size / p-value impossibility in the Spearman correlation added during peer review (r_s = 0.946, p = 3e-7, line 140): Table 2 contains only n = 9 cartons with quantifiable vRNA copies/mL (Carton 33 was negative on re-test), and for n = 9 (or n = 10), r_s = 0.946 yields two-sided p = 1.1e-4 (or 3.5e-5), not 3e-7 (indicating pseudoreplication across 8 segments x 9 cartons or inclusion of negative controls)"
       ],
       "human_reviewer_anomalies": "None",
@@ -2571,7 +2571,7 @@
     "pmid": "40768555",
     "doi": "10.1371/journal.ppat.1013369",
     "title": "Comparison of HIV-1 A6 dispersal dynamics in Poland before and after the war in Ukraine.",
-    "authors": "Serwin K, Mielczak K, Urbańska A, Aksak-Wąs B, Karasińska-Cieślak M, Ząbek P, Siwak E, Cielniak I, Jabłonowska E, Jakubowski P, Rozpłochowski B, Szymczak A, Szetela B, Kalinowska-Nowak A, Bociąga-Jasik M, Mularska E, Witor A, Olczak A, Łojewski W, Hlebowicz M, Parczewski M.",
+    "authors": "Serwin K, Mielczak K, Urba\u0144ska A, Aksak-W\u0105s B, Karasi\u0144ska-Cie\u015blak M, Z\u0105bek P, Siwak E, Cielniak I, Jab\u0142onowska E, Jakubowski P, Rozp\u0142ochowski B, Szymczak A, Szetela B, Kalinowska-Nowak A, Boci\u0105ga-Jasik M, Mularska E, Witor A, Olczak A, \u0141ojewski W, Hlebowicz M, Parczewski M.",
     "journal": "PLoS pathogens",
     "year": 2025,
     "citedByCount": 8,
@@ -2833,7 +2833,7 @@
         }
       ],
       "ai_only_critical_catches": [
-        "Directional contradiction and severe confounding by indication in the retrospective Medicare Advantage claims analysis (line 136): the authors state they tested whether ion-channel-targeting drugs are associated with a 'decreased risk of COVID-19 hospitalization', but report Hazard Ratios > 1.2 (significantly increased hospitalization risk) for loop diuretics, SSRIs, and anticonvulsants—which is the exact opposite direction of their in vitro 3,4-DAP inhibition experiments and reflects unadjusted clinical comorbidity confounding.",
+        "Directional contradiction and severe confounding by indication in the retrospective Medicare Advantage claims analysis (line 136): the authors state they tested whether ion-channel-targeting drugs are associated with a 'decreased risk of COVID-19 hospitalization', but report Hazard Ratios > 1.2 (significantly increased hospitalization risk) for loop diuretics, SSRIs, and anticonvulsants\u2014which is the exact opposite direction of their in vitro 3,4-DAP inhibition experiments and reflects unadjusted clinical comorbidity confounding.",
         "Pseudoreplication in main Figures 3C-D and 4D, where 3 distinct sgRNAs across 2 experiments (n=6) were pooled as independent biological replicates in a single one-way ANOVA rather than using a nested/mixed-effects model."
       ],
       "human_reviewer_anomalies": "None",
@@ -3367,7 +3367,7 @@
     "pmid": "39190628",
     "doi": "10.1371/journal.pone.0300830",
     "title": "Exploring the mitochondrial genomes and phylogenetic relationships of trans-Andean Bryconidae species (Actinopterygii: Ostariophysi: Characiformes).",
-    "authors": "Márquez EJ, Gómez-Chavarría DA, Alzate JF.",
+    "authors": "M\u00e1rquez EJ, G\u00f3mez-Chavarr\u00eda DA, Alzate JF.",
     "journal": "PloS one",
     "year": 2024,
     "citedByCount": 0,
@@ -3451,7 +3451,7 @@
     "pmid": "40934284",
     "doi": "10.1371/journal.pcbi.1013470",
     "title": "kMermaid: Ultrafast metagenomic read assignment to protein clusters by hashing of amino acid k-mer frequencies.",
-    "authors": "Lucas A, Schäffer DE, Wickramasinghe J, Auslander N.",
+    "authors": "Lucas A, Sch\u00e4ffer DE, Wickramasinghe J, Auslander N.",
     "journal": "PLoS computational biology",
     "year": 2025,
     "citedByCount": 2,
@@ -3576,11 +3576,11 @@
     "epistemic_stage": "Basic/Mechanistic Discovery",
     "ai_critique_count": 5,
     "ai_critique_titles": [
-      "Confounded Test for Positive Selection in Domestic Swine (`Tables 2–3`, `Lines 101–150, 243–246`)",
-      "Manual BLAST Alignment and Visual Genotype Calling for 751 ENA Samples (`Lines 233–236`)",
-      "Longitudinal Viral Replication Statistical Analysis (`Figs 1–2`, `Line 230`)",
-      "Incomplete Reporting of `PAML` `CODEML` Site Model Parameters (`Table 4`, `Lines 154–170, 250–252`)",
-      "Exemplary Experimental Rigor in Isogenic Clone Validation (`Lines 59–60`)"
+      "Confounded Test for Positive Selection in Domestic Swine (`Tables 2\u20133`, `Lines 101\u2013150, 243\u2013246`)",
+      "Manual BLAST Alignment and Visual Genotype Calling for 751 ENA Samples (`Lines 233\u2013236`)",
+      "Longitudinal Viral Replication Statistical Analysis (`Figs 1\u20132`, `Line 230`)",
+      "Incomplete Reporting of `PAML` `CODEML` Site Model Parameters (`Table 4`, `Lines 154\u2013170, 250\u2013252`)",
+      "Exemplary Experimental Rigor in Isogenic Clone Validation (`Lines 59\u201360`)"
     ],
     "ai_claim_tags": [
       "Well Supported",
@@ -3724,7 +3724,7 @@
     "pmid": "39964998",
     "doi": "10.1371/journal.pone.0314189",
     "title": "Transcriptomic analysis of benznidazole-resistant Trypanosoma cruzi clone reveals nitroreductase I-independent resistance mechanisms.",
-    "authors": "Mejía-Jaramillo AM, Ospina-Zapata H, Fernandez GJ, Triana-Chávez O.",
+    "authors": "Mej\u00eda-Jaramillo AM, Ospina-Zapata H, Fernandez GJ, Triana-Ch\u00e1vez O.",
     "journal": "PloS one",
     "year": 2025,
     "citedByCount": 9,
@@ -3832,9 +3832,9 @@
     "ai_critique_count": 4,
     "ai_critique_titles": [
       "Rigorous Experimental Controls for Confounders (Tamoxifen, Sex-Specific Dysmotility, and Denervation)",
-      "Transparent Reporting of Null `DESeq2` Results Paired with Exploratory Unadjusted $p < 0.05$ (`DiVenn`) Analyses (`Figs 2B–C, 3A`)",
-      "Genotype-Segregated Group Housing and Statistical Test Labeling in 16S Microbiome Analysis (`Fig 5D–E`, `Offset Line 161`)",
-      "Quantitative Morphometrics for Paneth Cell Granule Abnormality (`Fig 4A–B`)"
+      "Transparent Reporting of Null `DESeq2` Results Paired with Exploratory Unadjusted $p < 0.05$ (`DiVenn`) Analyses (`Figs 2B\u2013C, 3A`)",
+      "Genotype-Segregated Group Housing and Statistical Test Labeling in 16S Microbiome Analysis (`Fig 5D\u2013E`, `Offset Line 161`)",
+      "Quantitative Morphometrics for Paneth Cell Granule Abnormality (`Fig 4A\u2013B`)"
     ],
     "ai_claim_tags": [
       "Well Supported",
@@ -3897,7 +3897,7 @@
     "authors": "Wang L, Zhang R, Wang L, Wang Y, Zhang X, Zhou G.",
     "journal": "PloS one",
     "year": 2025,
-    "citedByCount": 0,
+    "citedByCount": 1,
     "subfield": "Single-Cell & Transcriptomics",
     "venue_tier": "Open-Review Megajournal",
     "cohort_id": "PMC12591416",
@@ -3922,7 +3922,7 @@
       "Cross-Species Database Mismatches (`Mouse` scRNA-seq Analyzed with `Human` Databases)",
       "Photoreceptor Ambient RNA / Doublet Contamination Misinterpreted as Endothelial \"Visual Perception\" Differentiation (`Lines 164, 169, 254`, `Fig 4F`, `Fig 5`)",
       "Tiny Active Cell Sample Size (`130 cells`) and Single-Cell Pseudoreplication (`Lines 57, 145`)",
-      "Uncritical `DGIdb` Drug Screening (`Table 1`, `Lines 180–195, 256`)",
+      "Uncritical `DGIdb` Drug Screening (`Table 1`, `Lines 180\u2013195, 256`)",
       "Basic Endocrine Error in the Discussion (`Offset Line 3`)"
     ],
     "ai_claim_tags": [
@@ -4015,8 +4015,8 @@
     "epistemic_stage": "Basic/Mechanistic Discovery",
     "ai_critique_count": 4,
     "ai_critique_titles": [
-      "Invalid Application of `WGCNA` to $N = 6$ Samples ($n = 3$ vs. $n = 3$ Design, `Lines 25, 127–136`, `Fig 6`)",
-      "Isobaric and Enantiomeric Duplication in Achiral C18 UPLC-MS/MS (`Table 1`, `Lines 31, 81–101`)",
+      "Invalid Application of `WGCNA` to $N = 6$ Samples ($n = 3$ vs. $n = 3$ Design, `Lines 25, 127\u2013136`, `Fig 6`)",
+      "Isobaric and Enantiomeric Duplication in Achiral C18 UPLC-MS/MS (`Table 1`, `Lines 31, 81\u2013101`)",
       "Inappropriate Statistical Tests (`OPLS-DA` and `Duncan's test` on 2 Groups, `Lines 66, 105`)",
       "Internal Numerical, Figure Reference, and Primer Orientation Errors"
     ],
@@ -4165,9 +4165,9 @@
     "ai_critique_count": 5,
     "ai_critique_titles": [
       "Mathematical Impossibility of 5,182,931 SNPs Within 40,941 Polymorphic SLAF Tags (`Lines 21, 227`)",
-      "Duplicated Sample Row (`DLC` vs. `DLC1`) and Missing Sample (`SX`) in `Table 1` (`Lines 28–50`)",
-      "Confounding of Population Genetic Metrics by Mixing Two Different Species inside $n=3$ Geographic Populations (`Tables 3–5`, `Lines 132–168, 195–217`)",
-      "Inconsistent $F_{ST}$ and Gene Flow ($N_m$) Calculations (`Lines 8, 154, 158–167`)",
+      "Duplicated Sample Row (`DLC` vs. `DLC1`) and Missing Sample (`SX`) in `Table 1` (`Lines 28\u201350`)",
+      "Confounding of Population Genetic Metrics by Mixing Two Different Species inside $n=3$ Geographic Populations (`Tables 3\u20135`, `Lines 132\u2013168, 195\u2013217`)",
+      "Inconsistent $F_{ST}$ and Gene Flow ($N_m$) Calculations (`Lines 8, 154, 158\u2013167`)",
       "Unrooted Tree Over-Interpretation and Clade Contradictions (`Lines 8, 98, 180, 237`)"
     ],
     "ai_claim_tags": [
@@ -4236,7 +4236,7 @@
     "epistemic_stage": "Basic/Mechanistic Discovery",
     "ai_critique_count": 5,
     "ai_critique_titles": [
-      "Swapped and Erroneous Antibody Clone Identifiers in `Table 1` (`Lines 76–112`)",
+      "Swapped and Erroneous Antibody Clone Identifiers in `Table 1` (`Lines 76\u2013112`)",
       "Donor Screening, Exclusion Accounting, and Anonymized Covariates (`Lines 38, 139`, `S2C Fig`)",
       "Multiplicity Correction in Parallel Cell-Type and Cytokine Wilcoxon Tests (`Figs 2, 3, 4`)",
       "Minor Text Cross-Reference Typo (`Line 209`)",
@@ -4329,12 +4329,12 @@
     "epistemic_stage": "Translational/Preclinical/Biomarker",
     "ai_critique_count": 6,
     "ai_critique_titles": [
-      "Deterministic Regression Collapse vs. One-to-Many Spatial Mapping (Eqs. 4–7)",
-      "Circularity of the In-Silico Knockout Validation for SOGs (Lines 109–115, Eq. 13)",
-      "Homologous Self-Reconstruction and Coarse-Grained Leakage in Benchmarks (Lines 50, 58, 94, 179–184)",
-      "Unfair Benchmarking Against Spot Deconvolution Methods (Lines 50–51, Fig. 2a–b)",
-      "Lack of Biological Replication in the Human Artery Cohort (Lines 117–120)",
-      "Gaussian Noise Simulation on Preprocessed Data (Lines 89, 186–206)"
+      "Deterministic Regression Collapse vs. One-to-Many Spatial Mapping (Eqs. 4\u20137)",
+      "Circularity of the In-Silico Knockout Validation for SOGs (Lines 109\u2013115, Eq. 13)",
+      "Homologous Self-Reconstruction and Coarse-Grained Leakage in Benchmarks (Lines 50, 58, 94, 179\u2013184)",
+      "Unfair Benchmarking Against Spot Deconvolution Methods (Lines 50\u201351, Fig. 2a\u2013b)",
+      "Lack of Biological Replication in the Human Artery Cohort (Lines 117\u2013120)",
+      "Gaussian Noise Simulation on Preprocessed Data (Lines 89, 186\u2013206)"
     ],
     "ai_claim_tags": [
       "Moderately Supported",
@@ -4398,8 +4398,8 @@
     "pmcid": "PMC11737796",
     "pmid": "39820614",
     "doi": "10.1371/journal.pone.0317090",
-    "title": "RORγt inverse agonists demonstrating a margin between inhibition of IL-17A and thymocyte apoptosis.",
-    "authors": "Collins M, Pehrson R, Grindebacke H, Leffler A, Ramnegård M, Rannikmäe H, Krutrök N, Yrlid L, Pollard C, Dainty I, Narjes F, von Berg S, Llinas A, Malmberg A, McPheat J, Hansson E, Bäck E, Bernström J, Hansson TG, Keeling D, Jirholt J.",
+    "title": "ROR\u03b3t inverse agonists demonstrating a margin between inhibition of IL-17A and thymocyte apoptosis.",
+    "authors": "Collins M, Pehrson R, Grindebacke H, Leffler A, Ramneg\u00e5rd M, Rannikm\u00e4e H, Krutr\u00f6k N, Yrlid L, Pollard C, Dainty I, Narjes F, von Berg S, Llinas A, Malmberg A, McPheat J, Hansson E, B\u00e4ck E, Bernstr\u00f6m J, Hansson TG, Keeling D, Jirholt J.",
     "journal": "PloS one",
     "year": 2025,
     "citedByCount": 3,
@@ -4498,7 +4498,7 @@
     "authors": "Ogunbajo A, Sotubo O, Okanlawon K, Shoyemi E, Oginni O, Mayer KH.",
     "journal": "PloS one",
     "year": 2025,
-    "citedByCount": 0,
+    "citedByCount": 1,
     "subfield": "Viral Evolution & Virology",
     "venue_tier": "Open-Review Megajournal",
     "cohort_id": "PMC12747391",
@@ -4520,10 +4520,10 @@
     "ai_critique_count": 5,
     "ai_critique_titles": [
       "Complete Omission of Participant Demographic and Clinical Characteristics (Line 48 vs. Results)",
-      "Survivorship and Selection Bias in Clinic-Based CBO Recruitment (Lines 43, 208–225, 253)",
+      "Survivorship and Selection Bias in Clinic-Based CBO Recruitment (Lines 43, 208\u2013225, 253)",
       "Methodological Contradiction Between Theoretical Framework and Inductive Coding (Lines 35 vs. 53)",
       "Qualitative Coding Rigor and Interrater Reliability Reporting (Line 53)",
-      "Unattributed Quotes and Lack of Participant Identifiers (Lines 65–234)"
+      "Unattributed Quotes and Lack of Participant Identifiers (Lines 65\u2013234)"
     ],
     "ai_claim_tags": [
       "Well Supported",
@@ -4601,10 +4601,10 @@
     "epistemic_stage": "Basic/Mechanistic Discovery",
     "ai_critique_count": 4,
     "ai_critique_titles": [
-      "Gross Unit Error ($1,000\\times$) and Corrupted Entries in Table 1 (Lines 120, 127–155)",
+      "Gross Unit Error ($1,000\\times$) and Corrupted Entries in Table 1 (Lines 120, 127\u2013155)",
       "Nonsensical Bioinformatic Methods Descriptions (Lines 27, 37, 67, 77)",
       "Arithmetic and Identifier Inconsistencies in Transcription Factor Analysis (Lines 8, 287, 298)",
-      "Absence of Statistical Rigor in RNA-Seq Drought Analysis (Lines 110–113, 340–349)"
+      "Absence of Statistical Rigor in RNA-Seq Drought Analysis (Lines 110\u2013113, 340\u2013349)"
     ],
     "ai_claim_tags": [
       "Methodologically Flawed",
@@ -4695,7 +4695,7 @@
     "ai_critique_titles": [
       "Ascertainment and Reporting Bias in Hospitalization and Mortality $\\chi^2$ Comparisons (Table 1, Lines 53, 175, 208)",
       "Denominator Discrepancy Between Text and Table 1 for Ethnicity Percentages (Line 53 vs. Table 1)",
-      "Uniform Null Assumption in the 500-nt Binned Binomial Enrichment Test (Lines 142–146, 28–31 of page 2)",
+      "Uniform Null Assumption in the 500-nt Binned Binomial Enrichment Test (Lines 142\u2013146, 28\u201331 of page 2)",
       "Exclusion of Rebound Cases with Intervening Negative PCR Tests (Lines 193, 220)",
       "Typographical Error in Collection Date (Line 185)"
     ],
@@ -4778,7 +4778,7 @@
     "ai_critique_count": 4,
     "ai_critique_titles": [
       "Use of `ALRA` Zero-Imputed Expression Matrices for Differential Expression and `CellChat` (Lines 99, 114, 127, 137)",
-      "Identity of sTO Cluster 4 (\"Areola-1\") Driven by Mitochondrial Genes (Line 102, Fig. 2E, Fig. 6F–G, S6 Table)",
+      "Identity of sTO Cluster 4 (\"Areola-1\") Driven by Mitochondrial Genes (Line 102, Fig. 2E, Fig. 6F\u2013G, S6 Table)",
       "Gestational Age Difference Between sTO Derivation (Term, ~GD114) and Visium Reference (Mid-Gestation, GD65/66)",
       "Minor Internal Discrepancies and Typos in Methods (Lines 41, 62)"
     ],
@@ -4868,12 +4868,12 @@
     "epistemic_stage": "Basic/Mechanistic Discovery",
     "ai_critique_count": 6,
     "ai_critique_titles": [
-      "Asymmetric Comparison in Fine-Mapping (Individual-Level `SuSiE` with Rare Variants vs. Summary-Statistic `PolyFun`/`SBayesRC` on Common SNPs, Lines 70–71, 81)",
-      "Generative Model Circularity in the Fine-Mapping Simulation (Page 2 Lines 40–43)",
+      "Asymmetric Comparison in Fine-Mapping (Individual-Level `SuSiE` with Rare Variants vs. Summary-Statistic `PolyFun`/`SBayesRC` on Common SNPs, Lines 70\u201371, 81)",
+      "Generative Model Circularity in the Fine-Mapping Simulation (Page 2 Lines 40\u201343)",
       "Information Loss from Selecting Only the Reference Sequence Class and Ad Hoc Rounding (Line 61, 63; Page 2 Line 6)",
       "Positional Frame-Shift Artifacts from Indel Truncation/Padding in 4,096 bp Windows (Line 87, 181)",
-      "OLS Linear Regression on Bounded, Zero-Inflated `SuSiE` PIPs in Enrichment Analysis (Page 2 Lines 11–29, 46–49)",
-      "Degrees-of-Freedom Asymmetry in Cross-Ancestry PRS Tuning (Lines 136–144; Page 2 Lines 35–38)"
+      "OLS Linear Regression on Bounded, Zero-Inflated `SuSiE` PIPs in Enrichment Analysis (Page 2 Lines 11\u201329, 46\u201349)",
+      "Degrees-of-Freedom Asymmetry in Cross-Ancestry PRS Tuning (Lines 136\u2013144; Page 2 Lines 35\u201338)"
     ],
     "ai_claim_tags": [
       "Well Supported",
@@ -4961,9 +4961,9 @@
     "epistemic_stage": "Basic/Mechanistic Discovery",
     "ai_critique_count": 5,
     "ai_critique_titles": [
-      "Underpowered Replication ($n = 2$) and Absence of Time-Matched Mock Controls in RNA-Seq (Lines 40, 50, 60–75)",
-      "Confounding of Constitutive Cultivar Differences with Induced Resistance in Contrasts 1–6 (Table 1, Lines 63–81)",
-      "Statistically Invalid Co-Expression Networks Constructed from $N = 6$ Samples per Cultivar (Lines 89–91, 155–170)",
+      "Underpowered Replication ($n = 2$) and Absence of Time-Matched Mock Controls in RNA-Seq (Lines 40, 50, 60\u201375)",
+      "Confounding of Constitutive Cultivar Differences with Induced Resistance in Contrasts 1\u20136 (Table 1, Lines 63\u201381)",
+      "Statistically Invalid Co-Expression Networks Constructed from $N = 6$ Samples per Cultivar (Lines 89\u201391, 155\u2013170)",
       "Inaccurate Reporting of the `DESeq2` Fold-Change Metric (Line 60)",
       "Single-Reference Housekeeping Gene in RT-qPCR Without Efficiency Correction (Line 96)"
     ],
@@ -5019,7 +5019,7 @@
     "pmid": "40096043",
     "doi": "10.1371/journal.pone.0319781",
     "title": "Hidden diversity of Trypanosomatidae (Protozoa: Kinetoplastea) in bats from an urban park in Brazil.",
-    "authors": "Lima MA, Vaz ME, Ferreira JE, Lima ACVMDR, Capucci DC, Talamoni SA, Dutra-Rêgo F, Andrade Filho JD.",
+    "authors": "Lima MA, Vaz ME, Ferreira JE, Lima ACVMDR, Capucci DC, Talamoni SA, Dutra-R\u00eago F, Andrade Filho JD.",
     "journal": "PloS one",
     "year": 2025,
     "citedByCount": 5,
@@ -5043,7 +5043,7 @@
     "epistemic_stage": "Clinical/Observational",
     "ai_critique_count": 2,
     "ai_critique_titles": [
-      "Severe Internal Arithmetic and Denominator Contradictions in Table 2 and Results Text (Lines 92, 101–117, 132)",
+      "Severe Internal Arithmetic and Denominator Contradictions in Table 2 and Results Text (Lines 92, 101\u2013117, 132)",
       "Arithmetic Error and Missing Sample Breakdown for Culture vs. PCR (Lines 42, 90, 92, 119)"
     ],
     "ai_claim_tags": [
@@ -5127,9 +5127,9 @@
     "ai_critique_count": 4,
     "ai_critique_titles": [
       "Incompatible Genome Assembly Pipeline Description (Lines 48, 98, Table 1)",
-      "Misclassification of Universal Bacterial Housekeeping Genes as Specialized Plant-Beneficial and Metal-Resistance Traits (Tables 2, 3, and 5; Lines 150–207, 308–340)",
+      "Misclassification of Universal Bacterial Housekeeping Genes as Specialized Plant-Beneficial and Metal-Resistance Traits (Tables 2, 3, and 5; Lines 150\u2013207, 308\u2013340)",
       "Contradiction Between Pan-Genome Methods (`Roary` vs. `OrthoMCL`) and Gene Family Counts (Lines 63, 284, 289)",
-      "Inappropriate Statistical Test Reporting and Unsubstantiated Metabolite Claims (Lines 8, 38, 68, 242, 260–263)"
+      "Inappropriate Statistical Test Reporting and Unsubstantiated Metabolite Claims (Lines 8, 38, 68, 242, 260\u2013263)"
     ],
     "ai_claim_tags": [
       "Well Supported",
@@ -5297,7 +5297,7 @@
     "epistemic_stage": "Clinical/Observational",
     "ai_critique_count": 6,
     "ai_critique_titles": [
-      "Multiple Arithmetic, Typographical, and Confidence Interval Errors in Tables 1–4",
+      "Multiple Arithmetic, Typographical, and Confidence Interval Errors in Tables 1\u20134",
       "Confounding Outcome Dichotomization (\"Favorable or No Changes\" Pooled Together)",
       "Cross-Country Statistical Power Asymmetry and Unpooled Country Interactions",
       "Conflation of Main Effects and Conditional Effects in Models with Interaction Terms",
@@ -5395,11 +5395,11 @@
     "epistemic_stage": "Translational/Preclinical/Biomarker",
     "ai_critique_count": 6,
     "ai_critique_titles": [
-      "Mass-Balance Discrepancy Between Cell Cycle ODEs (Eqs. 1–5) and Volumetric Growth Stretch Equation (Eq. 14)",
+      "Mass-Balance Discrepancy Between Cell Cycle ODEs (Eqs. 1\u20135) and Volumetric Growth Stretch Equation (Eq. 14)",
       "Dimensional Inconsistency and Unboundedness of the Linear $OER$ Formula (Eq. 21)",
       "Unphysical Initial Cell-Cycle Synchronization and Constant Normalized Density Assumption",
       "Inconsistent Initial Tumor Size vs. Preclinical/Clinical Validation Volumes",
-      "Unreported Modified Parameter Values in Figures 9–11",
+      "Unreported Modified Parameter Values in Figures 9\u201311",
       "Over-Interpretation of Deterministic Curves Killing \"All Tumor Cells\" (Fig 8)"
     ],
     "ai_claim_tags": [
@@ -5721,7 +5721,7 @@
     "pmid": "41396986",
     "doi": "10.1371/journal.pone.0339033",
     "title": "Development of a competition assay to assess the in vitro fitness of dengue virus serotypes using an optimized serotype-specific qRT-PCR.",
-    "authors": "Griffon AF, Rault L, Tanvet C, Simon-Lorière E, Dupont-Rouzeyrol M, Inizan C.",
+    "authors": "Griffon AF, Rault L, Tanvet C, Simon-Lori\u00e8re E, Dupont-Rouzeyrol M, Inizan C.",
     "journal": "PloS one",
     "year": 2025,
     "citedByCount": 0,
@@ -5745,8 +5745,8 @@
     "epistemic_stage": "Basic/Mechanistic Discovery",
     "ai_critique_count": 4,
     "ai_critique_titles": [
-      "Misapplication of Fisher's Exact Test to Continuous qRT-PCR Concentrations and Mean Percentages (Lines 190, 243, 256–258)",
-      "Residual Spectral Crosstalk Between DENV-3 (FAM) and DENV-2 (Atto590) Channels and Manual Thresholding (Lines 217, 236–238)",
+      "Misapplication of Fisher's Exact Test to Continuous qRT-PCR Concentrations and Mean Percentages (Lines 190, 243, 256\u2013258)",
+      "Residual Spectral Crosstalk Between DENV-3 (FAM) and DENV-2 (Atto590) Channels and Manual Thresholding (Lines 217, 236\u2013238)",
       "Discrepancy Between Clinical Specificity/Sensitivity Numbers in Text (Line 236)",
       "Large Genome-Copy-to-FFU Ratio Asymmetry in the Competition Inocula (Fig 4D, 4F & Table 1)"
     ],
@@ -5811,7 +5811,7 @@
     "pmid": "41252451",
     "doi": "10.1371/journal.ppat.1013706",
     "title": "High-resolution genome assembly and linkage mapping in Meloidogyne hapla reveal non-canonical telomere repeats and recombination hotspots associated with effector proteins.",
-    "authors": "Shakya P, Maulana MI, Danchin EGJ, Voogt ML, van de Ruitenbeek SJS, Gimeno J, Taranto AP, Blundell AC, Despot-Slade E, Meštrović N, Mota AZ, Dai D, Williamson VM, Sterken MG, Siddique S.",
+    "authors": "Shakya P, Maulana MI, Danchin EGJ, Voogt ML, van de Ruitenbeek SJS, Gimeno J, Taranto AP, Blundell AC, Despot-Slade E, Me\u0161trovi\u0107 N, Mota AZ, Dai D, Williamson VM, Sterken MG, Siddique S.",
     "journal": "PLoS pathogens",
     "year": 2025,
     "citedByCount": 2,
@@ -5835,9 +5835,9 @@
     "epistemic_stage": "Basic/Mechanistic Discovery",
     "ai_critique_count": 3,
     "ai_critique_titles": [
-      "Gene-to-Domain Boundary Assignment and Tandem Paralog Clustering in the Hypergeometric Test (Lines 117–131 of offset 2)",
-      "eSNP Ascertainment Density in HRZ vs. LRZ Change-Point Detection (Lines 65–74 of offset 2)",
-      "Small Secreted Peptide (SSP) Recovery Threshold in Structural Annotation (Lines 132–134)"
+      "Gene-to-Domain Boundary Assignment and Tandem Paralog Clustering in the Hypergeometric Test (Lines 117\u2013131 of offset 2)",
+      "eSNP Ascertainment Density in HRZ vs. LRZ Change-Point Detection (Lines 65\u201374 of offset 2)",
+      "Small Secreted Peptide (SSP) Recovery Threshold in Structural Annotation (Lines 132\u2013134)"
     ],
     "ai_claim_tags": [
       "Well Supported",
@@ -6002,7 +6002,7 @@
     "ai_critique_count": 4,
     "ai_critique_titles": [
       "Unpartitioned GTR+F+I+G4 Model on Unaligned/Masked Multi-Gene Concatenations and Missing-Data Branch-Length Distortion",
-      "Wait—Did `wgs0` (`pol`) Have 85% Gaps or Was It Trimmed? Critical Experimental Control Question",
+      "Wait\u2014Did `wgs0` (`pol`) Have 85% Gaps or Was It Trimmed? Critical Experimental Control Question",
       "Omission of Genetic Distance / Branch-Length Criteria in HIV Cluster Definition",
       "Statistical Testing Across 13 Mixture Levels Without Multiple-Testing Adjustment or Effect Sizes (Line 68)"
     ],
@@ -6056,11 +6056,11 @@
     "pmcid": "PMC12571266",
     "pmid": "41160510",
     "doi": "10.1371/journal.pone.0332801",
-    "title": "Lower Firmicutes abundance in gut microbiota associated with amyloid-β positivity in older adults in Japan as assessed by positron emission tomography.",
+    "title": "Lower Firmicutes abundance in gut microbiota associated with amyloid-\u03b2 positivity in older adults in Japan as assessed by positron emission tomography.",
     "authors": "Kojima N, Osuka Y, Sasai H, Shinkai S, Ishii K, Kohda N, Kobayashi Y, Kim H.",
     "journal": "PloS one",
     "year": 2025,
-    "citedByCount": 0,
+    "citedByCount": 2,
     "subfield": "Cancer & Microbiome",
     "venue_tier": "Open-Review Megajournal",
     "cohort_id": "PMC12571266",
@@ -6526,7 +6526,7 @@
     "ai_critique_count": 6,
     "ai_critique_titles": [
       "Extreme Micro-Sample Size ($n = 3$ vs. $n = 4$) and Mislabeling of Per-Protocol Analysis as Intention-to-Treat (ITT)",
-      "Mathematical Impossibility of Exact Two-Sided Mann–Whitney $U$ $p < 0.05$ for $n_1 = 3$ and $n_2 = 4$",
+      "Mathematical Impossibility of Exact Two-Sided Mann\u2013Whitney $U$ $p < 0.05$ for $n_1 = 3$ and $n_2 = 4$",
       "Between-Group $\\text{D}$-Serine Difference Driven by Washout in the Control Group ($p = 0.02$) Rather Than Significant Elevation in the Risperidone Group ($p > 0.07$)",
       "Unit Errors for Urinary $\\text{D}$-Amino Acid-to-Creatinine Ratios in the Abstract and Results Text",
       "Baseline HOMA-IR Inclusion Criterion Discrepancy and BMI Imbalance",
@@ -6617,7 +6617,7 @@
       "Typographical Error in the CAR T-Cell PDE (Equation 3)",
       "Incorrect Spherical Volume Jacobian ($r$ instead of $r^2$) in the Exhausted CAR T-Cell Integral (Equation 7)",
       "100-Fold Inconsistency in the Reported CAR T-Cell Diffusion Constant ($D_C$) and Dimensional Inconsistency in Time-Step Formula",
-      "Discontinuous Heaviside Tumor Diffusivity and Degraded Crank–Nicolson Convergence",
+      "Discontinuous Heaviside Tumor Diffusivity and Degraded Crank\u2013Nicolson Convergence",
       "Radius vs. Diameter Confusion and Figure Caption Copy-Paste Errors",
       "Identifiability of Preclinical Murine Fits (Fig 5)"
     ],
@@ -6865,7 +6865,7 @@
     "epistemic_stage": "Basic/Mechanistic Discovery",
     "ai_critique_count": 3,
     "ai_critique_titles": [
-      "Discrepancy Between the Text Description of Co-Infection Displacement and the Displayed ODE System (Materials and Methods, Lines 46–78)",
+      "Discrepancy Between the Text Description of Co-Infection Displacement and the Displayed ODE System (Materials and Methods, Lines 46\u201378)",
       "Pseudoreplication of Technical Plate Wells in Fixed-Effects Growth Rate Linear Model (`df = 518`)",
       "Confounding Secondary Mutation in Low-Copy Streamlined Variant $s_{w\\_e}$"
     ],
@@ -7267,7 +7267,7 @@
     "pmcid": "PMC12463393",
     "pmid": "40996809",
     "doi": "10.7554/elife.100346",
-    "title": "The effects of 17α-estradiol treatment on endocrine system revealed by single-nucleus transcriptomic sequencing of hypothalamus.",
+    "title": "The effects of 17\u03b1-estradiol treatment on endocrine system revealed by single-nucleus transcriptomic sequencing of hypothalamus.",
     "authors": "Li L, Wu G, Xu X, Yang J, Yi L, Yang Z, Mo Z, Xing L, Shan Y, Yu Z, Li Y.",
     "journal": "eLife",
     "year": 2025,
@@ -7295,9 +7295,9 @@
       "Unreplicated Pooled snRNA-seq Design ($N = 1$ Library per Condition) and Single-Cell Pseudoreplication",
       "Inconsistent Animal Age Reporting and Testicular Pseudoreplication",
       "\"Supervised Clustering\" via Non-Mutually-Exclusive Single-Transcript Thresholding (`expression > 0`)",
-      "Circularity in Defining and Validating `c1-up-signature` and `c4-up-signature` (Section 2.2, Fig 2C–E)",
+      "Circularity in Defining and Validating `c1-up-signature` and `c4-up-signature` (Section 2.2, Fig 2C\u2013E)",
       "Underpowered Serum ELISAs ($n = 3$/group), Uncorrected Multiple $t$-Tests, and Steroid Cross-Reactivity",
-      "Methodologically Flawed Human pQTL Bidirectional MR Analysis (Fig 6F, Fig 7F–G)"
+      "Methodologically Flawed Human pQTL Bidirectional MR Analysis (Fig 6F, Fig 7F\u2013G)"
     ],
     "ai_claim_tags": [
       "Moderately Supported",
@@ -7356,7 +7356,7 @@
     "pmid": "40531943",
     "doi": "10.1371/journal.pone.0324712",
     "title": "Microbiota and Postmenopause: The resilience of intestinal bacteria in the face of female hormonal aging.",
-    "authors": "Silva TCAD, Oliveira JAG, Moraes LÂG, Rosse I, Góes-Neto A, Azevedo VAC, Guerra-Sá R.",
+    "authors": "Silva TCAD, Oliveira JAG, Moraes L\u00c2G, Rosse I, G\u00f3es-Neto A, Azevedo VAC, Guerra-S\u00e1 R.",
     "journal": "PloS one",
     "year": 2025,
     "citedByCount": 3,
@@ -7519,7 +7519,7 @@
     "pmid": "41335603",
     "doi": "10.1371/journal.pone.0326401",
     "title": "Shared and distinct microRNA profiles between HT22, N2A and SH-SY5Y cell lines and primary mouse hippocampal neurons.",
-    "authors": "Murphy R, Villegas-Salmerón J, Sanz-Rodriguez A, Engel T, Mooney C, Henshall DC, Jimenez-Mateos EM.",
+    "authors": "Murphy R, Villegas-Salmer\u00f3n J, Sanz-Rodriguez A, Engel T, Mooney C, Henshall DC, Jimenez-Mateos EM.",
     "journal": "PloS one",
     "year": 2025,
     "citedByCount": 1,
@@ -7546,7 +7546,7 @@
       "Cross-Species Assay Mismatch: Profiling Human SH-SY5Y Cells on a Rodent-Specific TaqMan OpenArray Panel (Section 2.3)",
       "Direct Numerical Contradiction Between Results Text and Figure 4 Caption on Which Cell Line Best Correlates with Primary Neurons",
       "Cross-Platform Differential Expression Artifact Between Small RNA-seq and TaqMan qPCR (Sections 2.5 & 3.4, Fig 3H)",
-      "Multiple Text–Figure Mismatches and Nomenclature Errors",
+      "Multiple Text\u2013Figure Mismatches and Nomenclature Errors",
       "Single-Value Imputation and Normalization Details (Section 2.4)"
     ],
     "ai_claim_tags": [
@@ -7601,7 +7601,7 @@
     "pmid": "39945053",
     "doi": "10.7554/elife.92405",
     "title": "The population genetics of convergent adaptation in maize and teosinte is not locally restricted.",
-    "authors": "Tittes S, Lorant A, McGinty SP, Holland JB, de Jesus Sánchez-González J, Seetharam A, Tenaillon M, Ross-Ibarra J.",
+    "authors": "Tittes S, Lorant A, McGinty SP, Holland JB, de Jesus S\u00e1nchez-Gonz\u00e1lez J, Seetharam A, Tenaillon M, Ross-Ibarra J.",
     "journal": "eLife",
     "year": 2025,
     "citedByCount": 14,
@@ -7625,10 +7625,10 @@
     "epistemic_stage": "Basic/Mechanistic Discovery",
     "ai_critique_count": 5,
     "ai_critique_titles": [
-      "Definition of $P$ and Hypergeometric Scaling for Sweep Inference Accuracy (Materials and Methods, Lines 108–122)",
+      "Definition of $P$ and Hypergeometric Scaling for Sweep Inference Accuracy (Materials and Methods, Lines 108\u2013122)",
       "In-Sample Hyperparameter Tuning on Palmar Chico Replicates (Line 99)",
       "Sample Size of Rangewide SFS ($n = 5$ Maize, $n = 6$ Teosinte) in `mushi` and Asymptotic MK",
-      "Boundary Pileup in `rdmc` Parameter Grids and Fixed $N_e = 50,000$ (Fig 5E–F, Lines 129–138)",
+      "Boundary Pileup in `rdmc` Parameter Grids and Fixed $N_e = 50,000$ (Fig 5E\u2013F, Lines 129\u2013138)",
       "Truncated Text Blocks and Citation Substitution Glitch in Materials and Methods"
     ],
     "ai_claim_tags": [
@@ -7789,7 +7789,7 @@
     "ai_critique_count": 5,
     "ai_critique_titles": [
       "Inverted Fraction in Equation 12 (AUPRC Ratio Definition)",
-      "Reconstruction of Corrupted Input $X'$ vs. Denoising Reconstruction of $X$ (Equations 4–10)",
+      "Reconstruction of Corrupted Input $X'$ vs. Denoising Reconstruction of $X$ (Equations 4\u201310)",
       "Label Contamination and Missing Ablation for the Auxiliary Noise Classifier $C_{\\text{DA}}$",
       "Near-Random Performance on Cell-Type-Specific ChIP-Seq Networks (Table 1)",
       "Ad-Hoc Edge Thresholding and Cross-Sectional Slicing in the Microglia Case Study"
@@ -7888,7 +7888,7 @@
       "Division-by-Zero and Sign-Cancellation Vulnerabilities in Weight Normalization (Line 71)",
       "Unadjusted $p < 0.05$ Thresholding Across $K \\in [20, 50]$ MCA Dimensions",
       "Internal Dataset Count Discrepancies Across Text and Figures",
-      "Discretization Sensitivity in Spatial Mutual Information (SMI, Equations 8–11)"
+      "Discretization Sensitivity in Spatial Mutual Information (SMI, Equations 8\u201311)"
     ],
     "ai_claim_tags": [
       "Well Supported",
@@ -8049,7 +8049,7 @@
     "epistemic_stage": "Translational/Preclinical/Biomarker",
     "ai_critique_count": 5,
     "ai_critique_titles": [
-      "Unexplained 500-Fold Discrepancy in GYY4137 Concentration Across Mechanistic Assays (5 mM vs. 10 µM)",
+      "Unexplained 500-Fold Discrepancy in GYY4137 Concentration Across Mechanistic Assays (5 mM vs. 10 \u00b5M)",
       "Pseudoreplication and Lenient Thresholding in Untargeted Metabolomics (Figure 4)",
       "Inconsistent Double-Infection Protocol in Whole-Body Plethysmography (uWBP) Mice",
       "Confounded Chemical Epistasis in the DTT Co-Treatment Assay (Figure 5H)",
@@ -8110,7 +8110,7 @@
     "authors": "Featherstone LA, Ingle DJ, Wirth W, Duchene S.",
     "journal": "PLoS computational biology",
     "year": 2025,
-    "citedByCount": 0,
+    "citedByCount": 3,
     "subfield": "Viral Evolution & Virology",
     "venue_tier": "Selective Flagship / Society",
     "cohort_id": "PMC11991728",
@@ -8372,7 +8372,7 @@
     "pmid": "39527633",
     "doi": "10.1371/journal.pcbi.1012575",
     "title": "Reliability of plastid and mitochondrial localisation prediction declines rapidly with the evolutionary distance to the training set increasing.",
-    "authors": "Gould SB, Magiera J, García García C, Raval PK.",
+    "authors": "Gould SB, Magiera J, Garc\u00eda Garc\u00eda C, Raval PK.",
     "journal": "PLoS computational biology",
     "year": 2024,
     "citedByCount": 13,
@@ -8492,8 +8492,8 @@
       "Severe Uncontrolled Sex, Age, and Smoking Confounding Between UC Cases and Controls (Table 1)",
       "Anatomical Site Confounding in Oral Microbiome Sampling (Periodontal Pocket vs. Tongue, Line 99)",
       "Three Contradictory Sample Sizes for ICI-Treated Patients ($N = 27$ vs. $N = 38$ vs. $N = 30$)",
-      "Unspecified Dichotomization Cutoffs, Lack of Multivariable Survival Adjustment, and Panel Mismatches (Figures 3–4)",
-      "Implausible PCR Annealing Temperature and Outdated Reference Database (Lines 109–111)"
+      "Unspecified Dichotomization Cutoffs, Lack of Multivariable Survival Adjustment, and Panel Mismatches (Figures 3\u20134)",
+      "Implausible PCR Annealing Temperature and Outdated Reference Database (Lines 109\u2013111)"
     ],
     "ai_claim_tags": [
       "Methodologically Flawed",
@@ -8547,7 +8547,7 @@
     "authors": "Garrett MC, Carnwath T, Albano R, Zhuang Y, Behrmann CA, Pemberton M, Barakat F, Lober R, Hoeprich M, Paravati A, Reed M, Spry H, Woo D, O'Brien E, VanCauwenbergh B, Perentesis J, Nasser R, Medvedovic M, Plas DR.",
     "journal": "PloS one",
     "year": 2025,
-    "citedByCount": 0,
+    "citedByCount": 2,
     "subfield": "Single-Cell & Transcriptomics",
     "venue_tier": "Open-Review Megajournal",
     "cohort_id": "PMC12083822",
@@ -8569,7 +8569,7 @@
     "ai_critique_count": 3,
     "ai_critique_titles": [
       "Confounded $\\Delta\\text{AUC}$ Metric and Invalid $t$-Test in the Primary 106-Compound Screen (Figure 1)",
-      "Unreplicated RNA-Seq Design ($N = 1$ per Cell Line × Drug Condition) Drives Apparent Target Heterogeneity (Figures 2–3)",
+      "Unreplicated RNA-Seq Design ($N = 1$ per Cell Line \u00d7 Drug Condition) Drives Apparent Target Heterogeneity (Figures 2\u20133)",
       "Multiple Internal Text, Gene-Name, and Assay-Name Errors"
     ],
     "ai_claim_tags": [

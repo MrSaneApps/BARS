@@ -19,7 +19,8 @@
       "reproducibility": 1.1,
       "review_path": "reviews_anon/ANON_37.md",
       "authors": "Amendola A, Canuti M, Bianchi S, Kumar S, Fappani C, Gori M, Colzani D, Kosakovsky Pond SL, Miura S, Baggieri M, Marchi A, Borghi E, Zuccotti G, Raviglione MC, Magurano F, Tanzi E.",
-      "doi": "10.1016/j.envres.2022.113979"
+      "doi": "10.1016/j.envres.2022.113979",
+      "citedByCount": 25
     },
     {
       "anon_id": "ANON_19",
@@ -40,7 +41,8 @@
       "reproducibility": 1.3,
       "review_path": "reviews_anon/ANON_19.md",
       "authors": "Tang X, Wu C, Li X, Song Y, Yao X, Wu X, Duan Y, Zhang H, Wang Y, Qian Z, Cui J, Lu J.",
-      "doi": "10.1093/nsr/nwaa036"
+      "doi": "10.1093/nsr/nwaa036",
+      "citedByCount": 1616
     },
     {
       "anon_id": "ANON_45",
@@ -61,7 +63,8 @@
       "reproducibility": 0.9,
       "review_path": "reviews_anon/ANON_45.md",
       "authors": "Forster P, Forster L, Renfrew C, Forster M.",
-      "doi": "10.1073/pnas.2004999117"
+      "doi": "10.1073/pnas.2004999117",
+      "citedByCount": 1022
     },
     {
       "anon_id": "ANON_04",
@@ -82,7 +85,8 @@
       "reproducibility": 1.0,
       "review_path": "reviews_anon/ANON_04.md",
       "authors": "Xia X.",
-      "doi": "10.1093/molbev/msaa094"
+      "doi": "10.1093/molbev/msaa094",
+      "citedByCount": 156
     },
     {
       "anon_id": "ANON_01",
@@ -103,7 +107,8 @@
       "reproducibility": 0.8,
       "review_path": "reviews_anon/ANON_01.md",
       "authors": "Ji W, Wang W, Zhao X, Zai J, Li X.",
-      "doi": "10.1002/jmv.25682"
+      "doi": "10.1002/jmv.25682",
+      "citedByCount": 942
     },
     {
       "anon_id": "ANON_12",
@@ -124,7 +129,8 @@
       "reproducibility": 0.9,
       "review_path": "reviews_anon/ANON_12.md",
       "authors": "Desingu PA, Nagarajan K.",
-      "doi": "10.1002/jmv.27967"
+      "doi": "10.1002/jmv.27967",
+      "citedByCount": 36
     },
     {
       "anon_id": "ANON_31",
@@ -145,7 +151,8 @@
       "reproducibility": 1.5,
       "review_path": "reviews_anon/ANON_31.md",
       "authors": "van Dorp L, Acman M, Richard D, Shaw LP, Ford CE, Ormond L, Owen CJ, Pang J, Tan CCS, Boshier FAT, Ortiz AT, Balloux F.",
-      "doi": "10.1016/j.meegid.2020.104351"
+      "doi": "10.1016/j.meegid.2020.104351",
+      "citedByCount": 774
     },
     {
       "anon_id": "ANON_05",
@@ -166,7 +173,8 @@
       "reproducibility": 1.1,
       "review_path": "reviews_anon/ANON_05.md",
       "authors": "La Rosa G, Mancini P, Bonanno Ferraro G, Veneri C, Iaconelli M, Bonadonna L, Lucentini L, Suffredini E.",
-      "doi": "10.1016/j.scitotenv.2020.141711"
+      "doi": "10.1016/j.scitotenv.2020.141711",
+      "citedByCount": 349
     },
     {
       "anon_id": "ANON_13",
@@ -187,7 +195,8 @@
       "reproducibility": 0.6,
       "review_path": "reviews_anon/ANON_13.md",
       "authors": "Apolone G, Montomoli E, Manenti A, Boeri M, Sabia F, Hyseni I, Mazzini L, Martinuzzi D, Cantone L, Milanese G, Sestini S, Suatoni P, Marchian\u00f2 A, Bollati V, Sozzi G, Pastorino U.",
-      "doi": "10.1177/0300891620974755"
+      "doi": "10.1177/0300891620974755",
+      "citedByCount": 166
     },
     {
       "anon_id": "ANON_39",
@@ -208,7 +217,8 @@
       "reproducibility": 1.3,
       "review_path": "reviews_anon/ANON_39.md",
       "authors": "Chaw SM, Tai JH, Chen SL, Hsieh CH, Chang SY, Yeh SH, Yang WS, Chen PJ, Wang HY.",
-      "doi": "10.1186/s12929-020-00665-8"
+      "doi": "10.1186/s12929-020-00665-8",
+      "citedByCount": 91
     },
     {
       "anon_id": "ANON_14",
@@ -229,7 +239,8 @@
       "reproducibility": 1.7,
       "review_path": "reviews_anon/ANON_14.md",
       "authors": "Field Y, Boyle EA, Telis N, Gao Z, Gaulton KJ, Golan D, Yengo L, Rocheleau G, Froguel P, McCarthy MI, Pritchard JK.",
-      "doi": "10.1126/science.aag0776"
+      "doi": "10.1126/science.aag0776",
+      "citedByCount": 381
     },
     {
       "anon_id": "ANON_28",
@@ -250,7 +261,8 @@
       "reproducibility": 0.6,
       "review_path": "reviews_anon/ANON_28.md",
       "authors": "Becerra-Flores M, Cardozo T.",
-      "doi": "10.1111/ijcp.13525"
+      "doi": "10.1111/ijcp.13525",
+      "citedByCount": 295
     },
     {
       "anon_id": "ANON_02",
@@ -271,7 +283,8 @@
       "reproducibility": 1.0,
       "review_path": "reviews_anon/ANON_02.md",
       "authors": "Toyoshima Y, Nemoto K, Matsumoto S, Nakamura Y, Kiyotani K.",
-      "doi": "10.1038/s10038-020-0808-9"
+      "doi": "10.1038/s10038-020-0808-9",
+      "citedByCount": 348
     },
     {
       "anon_id": "ANON_43",
@@ -292,7 +305,8 @@
       "reproducibility": 0.5,
       "review_path": "reviews_anon/ANON_43.md",
       "authors": "Eaaswarkhanth M, Al Madhoun A, Al-Mulla F.",
-      "doi": "10.1016/j.ijid.2020.05.071"
+      "doi": "10.1016/j.ijid.2020.05.071",
+      "citedByCount": 145
     },
     {
       "anon_id": "ANON_35",
@@ -313,7 +327,8 @@
       "reproducibility": 1.0,
       "review_path": "reviews_anon/ANON_35.md",
       "authors": "Escobar LE, Molina-Cruz A, Barillas-Mury C.",
-      "doi": "10.1073/pnas.2008410117"
+      "doi": "10.1073/pnas.2008410117",
+      "citedByCount": 437
     },
     {
       "anon_id": "ANON_16",
@@ -334,7 +349,8 @@
       "reproducibility": 1.6,
       "review_path": "reviews_anon/ANON_16.md",
       "authors": "Poore GD, Kopylova E, Zhu Q, Carpenter C, Fraraccio S, Wandro S, Kosciolek T, Janssen S, Metcalf J, Song SJ, Kanbar J, Miller-Montgomery S, Heaton R, Mckay R, Patel SP, Swafford AD, Knight R.",
-      "doi": "10.1038/s41586-020-2095-1"
+      "doi": "10.1038/s41586-020-2095-1",
+      "citedByCount": 989
     },
     {
       "anon_id": "ANON_38",
@@ -355,7 +371,8 @@
       "reproducibility": 1.0,
       "review_path": "reviews_anon/ANON_38.md",
       "authors": "Aykut B, Pushalkar S, Chen R, Li Q, Abengozar R, Kim JI, Shadaloey SA, Wu D, Preiss P, Verma N, Guo Y, Saxena A, Vardhan M, Diskin B, Wang W, Leinwand J, Kurz E, Kochen Rossi JA, Hundeyin M, Zambrinis C, Li X, Saxena D, Miller G.",
-      "doi": "10.1038/s41586-019-1608-2"
+      "doi": "10.1038/s41586-019-1608-2",
+      "citedByCount": 883
     },
     {
       "anon_id": "ANON_11",
@@ -376,7 +393,8 @@
       "reproducibility": 1.7,
       "review_path": "reviews_anon/ANON_11.md",
       "authors": "Narunsky-Haziza L, Sepich-Poore GD, Livyatan I, Asraf O, Martino C, Nejman D, Gavert N, Stajich JE, Amit G, Gonz\u00e1lez A, Wandro S, Perry G, Ariel R, Meltser A, Shaffer JP, Zhu Q, Balint-Lahat N, Barshack I, Dadiani M, Gal-Yam EN, Patel SP, Bashan A, Swafford AD, Pilpel Y, Knight R, Straussman R.",
-      "doi": "10.1016/j.cell.2022.09.005"
+      "doi": "10.1016/j.cell.2022.09.005",
+      "citedByCount": 539
     },
     {
       "anon_id": "ANON_06",
@@ -397,7 +415,8 @@
       "reproducibility": 1.6,
       "review_path": "reviews_anon/ANON_06.md",
       "authors": "Nejman D, Livyatan I, Fuks G, Gavert N, Zwang Y, Geller LT, Rotter-Maskowitz A, Weiser R, Mallel G, Gigi E, Meltser A, Douglas GM, Kamer I, Gopalakrishnan V, Dadosh T, Levin-Zaidman S, Avnet S, Atlan T, Cooper ZA, Arora R, Cogdill AP, Khan MAW, Ologun G, Bussi Y, Weinberger A, Lotan-Pompan M, Golani O, Perry G, Rokah M, Bahar-Shany K, Rozeman EA, Blank CU, Ronai A, Shaoul R, Amit A, Dorfman T, Kremer R, Cohen ZR, Harnof S, Siegal T, Yehuda-Shnaidman E, Gal-Yam EN, Shapira H, Baldini N, Langille MGI, Ben-Nun A, Kaufman B, Nissan A, Golan T, Dadiani M, Levanon K, Bar J, Yust-Katz S, Barshack I, Peeper DS, Raz DJ, Segal E, Wargo JA, Sandbank J, Shental N, Straussman R.",
-      "doi": "10.1126/science.aay9189"
+      "doi": "10.1126/science.aay9189",
+      "citedByCount": 2466
     },
     {
       "anon_id": "ANON_21",
@@ -418,7 +437,8 @@
       "reproducibility": 0.9,
       "review_path": "reviews_anon/ANON_21.md",
       "authors": "Lippert C, Sabatini R, Maher MC, Kang EY, Lee S, Arikan O, Harley A, Bernal A, Garst P, Lavrenko V, Yocum K, Wong T, Zhu M, Yang WY, Chang C, Lu T, Lee CWH, Hicks B, Ramakrishnan S, Tang H, Xie C, Piper J, Brewerton S, Turpaz Y, Telenti A, Roby RK, Och FJ, Venter JC.",
-      "doi": "10.1073/pnas.1711125114"
+      "doi": "10.1073/pnas.1711125114",
+      "citedByCount": 154
     },
     {
       "anon_id": "ANON_17",
@@ -439,7 +459,8 @@
       "reproducibility": 0.9,
       "review_path": "reviews_anon/ANON_17.md",
       "authors": "Wei X, Nielsen R.",
-      "doi": "10.1038/s41591-019-0459-6"
+      "doi": "10.1038/s41591-019-0459-6",
+      "citedByCount": 65
     },
     {
       "anon_id": "ANON_27",
@@ -460,7 +481,8 @@
       "reproducibility": 0.7,
       "review_path": "reviews_anon/ANON_27.md",
       "authors": "Sebastiani P, Solovieff N, Dewan AT, Walsh KM, Puca A, Hartley SW, Melista E, Andersen S, Dworkis DA, Wilk JB, Myers RH, Steinberg MH, Montano M, Baldwin CT, Hoh J, Perls TT.",
-      "doi": "10.1371/journal.pone.0029848"
+      "doi": "10.1371/journal.pone.0029848",
+      "citedByCount": 465
     },
     {
       "anon_id": "ANON_03",
@@ -481,7 +503,8 @@
       "reproducibility": 1.4,
       "review_path": "reviews_anon/ANON_03.md",
       "authors": "Turchin MC, Chiang CW, Palmer CD, Sankararaman S, Reich D, Genetic Investigation of ANthropometric Traits (GIANT) Consortium, Hirschhorn JN.",
-      "doi": "10.1038/ng.2368"
+      "doi": "10.1038/ng.2368",
+      "citedByCount": 327
     },
     {
       "anon_id": "ANON_20",
@@ -502,7 +525,8 @@
       "reproducibility": 1.7,
       "review_path": "reviews_anon/ANON_20.md",
       "authors": "Berg JJ, Coop G.",
-      "doi": "10.1371/journal.pgen.1004412"
+      "doi": "10.1371/journal.pgen.1004412",
+      "citedByCount": 485
     },
     {
       "anon_id": "ANON_24",
@@ -523,7 +547,8 @@
       "reproducibility": 1.1,
       "review_path": "reviews_anon/ANON_24.md",
       "authors": "Rabosky DL.",
-      "doi": "10.1371/journal.pone.0089543"
+      "doi": "10.1371/journal.pone.0089543",
+      "citedByCount": 1104
     },
     {
       "anon_id": "ANON_26",
@@ -544,7 +569,8 @@
       "reproducibility": 1.1,
       "review_path": "reviews_anon/ANON_26.md",
       "authors": "Kumar S, Tao Q, Weaver S, Sanderford M, Caraballo-Ortiz MA, Sharma S, Pond SLK, Miura S.",
-      "doi": "10.1093/molbev/msab118"
+      "doi": "10.1093/molbev/msab118",
+      "citedByCount": 73
     },
     {
       "pmcid": "PMC4929217",
@@ -1167,7 +1193,8 @@
       "reproducibility": 1.5,
       "review_path": "reviews_anon/ANON_18.md",
       "authors": "Jones FC, Grabherr MG, Chan YF, Russell P, Mauceli E, Johnson J, Swofford R, Pirun M, Zody MC, White S, Birney E, Searle S, Schmutz J, Grimwood J, Dickson MC, Myers RM, Miller CT, Summers BR, Knecht AK, Brady SD, Zhang H, Pollen AA, Howes T, Amemiya C, Broad Institute Genome Sequencing Platform & Whole Genome Assembly Team, Baldwin J, Bloom T, Jaffe DB, Nicol R, Wilkinson J, Lander ES, Di Palma F, Lindblad-Toh K, Kingsley DM.",
-      "doi": "10.1038/nature10944"
+      "doi": "10.1038/nature10944",
+      "citedByCount": 291
     },
     {
       "pmcid": "PMC7418704",
@@ -1213,7 +1240,8 @@
       "reproducibility": 0.9,
       "review_path": "reviews_anon/ANON_07.md",
       "authors": "Goldstein RA, Pollard ST, Shah SD, Pollock DD.",
-      "doi": "10.1093/molbev/msv041"
+      "doi": "10.1093/molbev/msv041",
+      "citedByCount": 201
     },
     {
       "anon_id": "ANON_10",
@@ -1234,7 +1262,8 @@
       "reproducibility": 1.7,
       "review_path": "reviews_anon/ANON_10.md",
       "authors": "Korber B, Fischer WM, Gnanakaran S, Yoon H, Theiler J, Abfalterer W, Hengartner N, Giorgi EE, Bhattacharya T, Foley B, Hastie KM, Parker MD, Partridge DG, Evans CM, Freeman TM, de Silva TI, Sheffield COVID-19 Genomics Group, McDanal C, Perez LG, Tang H, Moon-Walker A, Whelan SP, LaBranche CC, Saphire EO, Montefiori DC.",
-      "doi": "10.1016/j.cell.2020.06.043"
+      "doi": "10.1016/j.cell.2020.06.043",
+      "citedByCount": 4278
     },
     {
       "anon_id": "ANON_36",
@@ -1255,7 +1284,8 @@
       "reproducibility": 1.2,
       "review_path": "reviews_anon/ANON_36.md",
       "authors": "Agashe D, Sane M, Phalnikar K, Diwan GD, Habibullah A, Martinez-Gomez NC, Sahasrabuddhe V, Polachek W, Wang J, Chubiz LM, Marx CJ.",
-      "doi": "10.1093/molbev/msw035"
+      "doi": "10.1093/molbev/msw035",
+      "citedByCount": 364
     },
     {
       "anon_id": "ANON_25",
@@ -1276,7 +1306,8 @@
       "reproducibility": 1.3,
       "review_path": "reviews_anon/ANON_25.md",
       "authors": "Risso VA, Manssour-Triedo F, Delgado-Delgado A, Arco R, Barroso-delJesus A, Ingles-Prieto A, Godoy-Ruiz R, Gavira JA, Gaucher EA, Ibarra-Molero B, Sanchez-Ruiz JM.",
-      "doi": "10.1093/molbev/msu312"
+      "doi": "10.1093/molbev/msu312",
+      "citedByCount": 249
     },
     {
       "anon_id": "ANON_41",
@@ -1297,7 +1328,8 @@
       "reproducibility": 1.9,
       "review_path": "reviews_anon/ANON_41.md",
       "authors": "Karczewski KJ, Francioli LC, Tiao G, Cummings BB, Alf\u00f6ldi J, Wang Q, Collins RL, Laricchia KM, Ganna A, Birnbaum DP, Gauthier LD, Brand H, Solomonson M, Watts NA, Rhodes D, Singer-Berk M, England EM, Seaby EG, Kosmicki JA, Walters RK, Tashman K, Farjoun Y, Banks E, Poterba T, Wang A, Seed C, Whiffin N, Chong JX, Samocha KE, Pierce-Hoffman E, Zappala Z, O'Donnell-Luria AH, Minikel EV, Weisburd B, Lek M, Ware JS, Vittal C, Armean IM, Bergelson L, Cibulskis K, Connolly KM, Covarrubias M, Donnelly S, Ferriera S, Gabriel S, Gentry J, Gupta N, Jeandet T, Kaplan D, Llanwarne C, Munshi R, Novod S, Petrillo N, Roazen D, Ruano-Rubio V, Saltzman A, Schleicher M, Soto J, Tibbetts K, Tolonen C, Wade G, Talkowski ME, Genome Aggregation Database Consortium, Neale BM, Daly MJ, MacArthur DG.",
-      "doi": "10.1038/s41586-020-2308-7"
+      "doi": "10.1038/s41586-020-2308-7",
+      "citedByCount": 435
     },
     {
       "anon_id": "ANON_22",
@@ -1318,7 +1350,8 @@
       "reproducibility": 1.8,
       "review_path": "reviews_anon/ANON_22.md",
       "authors": "Loh PR, Tucker G, Bulik-Sullivan BK, Vilhj\u00e1lmsson BJ, Finucane HK, Salem RM, Chasman DI, Ridker PM, Neale BM, Berger B, Patterson N, Price AL.",
-      "doi": "10.1038/ng.3190"
+      "doi": "10.1038/ng.3190",
+      "citedByCount": 1697
     },
     {
       "anon_id": "ANON_29",
@@ -1339,7 +1372,8 @@
       "reproducibility": 1.6,
       "review_path": "reviews_anon/ANON_29.md",
       "authors": "Rambaut A, Holmes EC, O'Toole \u00c1, Hill V, McCrone JT, Ruis C, du Plessis L, Pybus OG.",
-      "doi": "10.1038/s41564-020-0770-5"
+      "doi": "10.1038/s41564-020-0770-5",
+      "citedByCount": 2542
     },
     {
       "anon_id": "ANON_40",
@@ -1360,7 +1394,8 @@
       "reproducibility": 1.8,
       "review_path": "reviews_anon/ANON_40.md",
       "authors": "Turakhia Y, De Maio N, Thornlow B, Gozashti L, Lanfear R, Walker CR, Hinrichs AS, Fernandes JD, Borges R, Slodkowicz G, Weilguny L, Haussler D, Goldman N, Corbett-Detig R.",
-      "doi": "10.1371/journal.pgen.1009175"
+      "doi": "10.1371/journal.pgen.1009175",
+      "citedByCount": 130
     },
     {
       "anon_id": "ANON_49",
@@ -1381,7 +1416,8 @@
       "reproducibility": 1.9,
       "review_path": "reviews_anon/ANON_49.md",
       "authors": "Harrow J, Frankish A, Gonzalez JM, Tapanari E, Diekhans M, Kokocinski F, Aken BL, Barrell D, Zadissa A, Searle S, Barnes I, Bignell A, Boychenko V, Hunt T, Kay M, Mukherjee G, Rajan J, Despacio-Reyes G, Saunders G, Steward C, Harte R, Lin M, Howald C, Tanzer A, Derrien T, Chrast J, Walters N, Balasubramanian S, Pei B, Tress M, Rodriguez JM, Ezkurdia I, van Baren J, Brent M, Haussler D, Kellis M, Valencia A, Reymond A, Gerstein M, Guig\u00f3 R, Hubbard TJ.",
-      "doi": "10.1101/gr.135350.111"
+      "doi": "10.1101/gr.135350.111",
+      "citedByCount": 2557
     },
     {
       "anon_id": "ANON_32",
@@ -1402,7 +1438,8 @@
       "reproducibility": 1.8,
       "review_path": "reviews_anon/ANON_32.md",
       "authors": "Travaglini KJ, Nabhan AN, Penland L, Sinha R, Gillich A, Sit RV, Chang S, Conley SD, Mori Y, Seita J, Berry GJ, Shrager JB, Metzger RJ, Kuo CS, Neff N, Weissman IL, Quake SR, Krasnow MA.",
-      "doi": "10.1038/s41586-020-2922-4"
+      "doi": "10.1038/s41586-020-2922-4",
+      "citedByCount": 1463
     },
     {
       "anon_id": "ANON_46",
@@ -1423,7 +1460,8 @@
       "reproducibility": 1.6,
       "review_path": "reviews_anon/ANON_46.md",
       "authors": "Yost KE, Satpathy AT, Wells DK, Qi Y, Wang C, Kageyama R, McNamara KL, Granja JM, Sarin KY, Brown RA, Gupta RK, Curtis C, Bucktrout SL, Davis MM, Chang ALS, Chang HY.",
-      "doi": "10.1038/s41591-019-0522-3"
+      "doi": "10.1038/s41591-019-0522-3",
+      "citedByCount": 339
     },
     {
       "anon_id": "ANON_09",
@@ -1444,7 +1482,8 @@
       "reproducibility": 1.9,
       "review_path": "reviews_anon/ANON_09.md",
       "authors": "Bloom JD, Neher RA.",
-      "doi": "10.1093/ve/vead055"
+      "doi": "10.1093/ve/vead055",
+      "citedByCount": 123
     },
     {
       "anon_id": "ANON_50",
@@ -1465,7 +1504,8 @@
       "reproducibility": 1.7,
       "review_path": "reviews_anon/ANON_50.md",
       "authors": "Dudas G, Carvalho LM, Bedford T, Tatem AJ, Baele G, Faria NR, Park DJ, Ladner JT, Arias A, Asogun D, Bielejec F, Caddy SL, Cotten M, D'Ambrozio J, Dellicour S, Di Caro A, Diclaro JW, Duraffour S, Elmore MJ, Fakoli LS, Faye O, Gilbert ML, Gevao SM, Gire S, Gladden-Young A, Gnirke A, Goba A, Grant DS, Haagmans BL, Hiscox JA, Jah U, Kugelman JR, Liu D, Lu J, Malboeuf CM, Mate S, Matthews DA, Matranga CB, Meredith LW, Qu J, Quick J, Pas SD, Phan MVT, Pollakis G, Reusken CB, Sanchez-Lockhart M, Schaffner SF, Schieffelin JS, Sealfon RS, Simon-Loriere E, Smits SL, Stoecker K, Thorne L, Tobin EA, Vandi MA, Watson SJ, West K, Whitmer S, Wiley MR, Winnicki SM, Wohl S, W\u00f6lfel R, Yozwiak NL, Andersen KG, Blyden SO, Bolay F, Carroll MW, Dahn B, Diallo B, Formenty P, Fraser C, Gao GF, Garry RF, Goodfellow I, G\u00fcnther S, Happi CT, Holmes EC, Kargbo B, Ke\u00efta S, Kellam P, Koopmans MPG, Kuhn JH, Loman NJ, Magassouba N, Naidoo D, Nichol ST, Nyenswah T, Palacios G, Pybus OG, Sabeti PC, Sall A, Str\u00f6her U, Wurie I, Suchard MA, Lemey P, Rambaut A.",
-      "doi": "10.1038/nature22040"
+      "doi": "10.1038/nature22040",
+      "citedByCount": 408
     },
     {
       "anon_id": "ANON_15",
@@ -1486,7 +1526,8 @@
       "reproducibility": 1.8,
       "review_path": "reviews_anon/ANON_15.md",
       "authors": "Gihawi A, Ge Y, Lu J, Puiu D, Xu A, Cooper CS, Brewer DS, Pertea M, Salzberg SL.",
-      "doi": "10.1128/mbio.01607-23"
+      "doi": "10.1128/mbio.01607-23",
+      "citedByCount": 243
     },
     {
       "anon_id": "ANON_33",
@@ -1507,7 +1548,8 @@
       "reproducibility": 1.7,
       "review_path": "reviews_anon/ANON_33.md",
       "authors": "Sohail M, Maier RM, Ganna A, Bloemendal A, Martin AR, Turchin MC, Chiang CW, Hirschhorn J, Daly MJ, Patterson N, Neale B, Mathieson I, Reich D, Sunyaev SR.",
-      "doi": "10.7554/elife.39702"
+      "doi": "10.7554/elife.39702",
+      "citedByCount": 359
     },
     {
       "anon_id": "ANON_34",
@@ -1528,7 +1570,8 @@
       "reproducibility": 1.7,
       "review_path": "reviews_anon/ANON_34.md",
       "authors": "Berg JJ, Harpak A, Sinnott-Armstrong N, Joergensen AM, Mostafavi H, Field Y, Boyle EA, Zhang X, Racimo F, Pritchard JK, Coop G.",
-      "doi": "10.7554/elife.39725"
+      "doi": "10.7554/elife.39725",
+      "citedByCount": 336
     },
     {
       "anon_id": "ANON_08",
@@ -1549,7 +1592,8 @@
       "reproducibility": 1.7,
       "review_path": "reviews_anon/ANON_08.md",
       "authors": "Murrell B, Wertheim JO, Moola S, Weighill T, Scheffler K, Kosakovsky Pond SL.",
-      "doi": "10.1371/journal.pgen.1002764"
+      "doi": "10.1371/journal.pgen.1002764",
+      "citedByCount": 1810
     },
     {
       "anon_id": "ANON_48",
@@ -1570,7 +1614,8 @@
       "reproducibility": 1.8,
       "review_path": "reviews_anon/ANON_48.md",
       "authors": "Murrell B, Weaver S, Smith MD, Wertheim JO, Murrell S, Aylward A, Eren K, Pollner T, Martin DP, Smith DM, Scheffler K, Kosakovsky Pond SL.",
-      "doi": "10.1093/molbev/msv035"
+      "doi": "10.1093/molbev/msv035",
+      "citedByCount": 661
     },
     {
       "anon_id": "ANON_44",
@@ -1591,7 +1636,8 @@
       "reproducibility": 1.6,
       "review_path": "reviews_anon/ANON_44.md",
       "authors": "Mackay TF, Richards S, Stone EA, Barbadilla A, Ayroles JF, Zhu D, Casillas S, Han Y, Magwire MM, Cridland JM, Richardson MF, Anholt RR, Barr\u00f3n M, Bess C, Blankenburg KP, Carbone MA, Castellano D, Chaboub L, Duncan L, Harris Z, Javaid M, Jayaseelan JC, Jhangiani SN, Jordan KW, Lara F, Lawrence F, Lee SL, Librado P, Linheiro RS, Lyman RF, Mackey AJ, Munidasa M, Muzny DM, Nazareth L, Newsham I, Perales L, Pu LL, Qu C, R\u00e0mia M, Reid JG, Rollmann SM, Rozas J, Saada N, Turlapati L, Worley KC, Wu YQ, Yamamoto A, Zhu Y, Bergman CM, Thornton KR, Mittelman D, Gibbs RA.",
-      "doi": "10.1038/nature10811"
+      "doi": "10.1038/nature10811",
+      "citedByCount": 736
     },
     {
       "anon_id": "ANON_47",
@@ -1612,7 +1658,8 @@
       "reproducibility": 1.2,
       "review_path": "reviews_anon/ANON_47.md",
       "authors": "Mack KL, Campbell P, Nachman MW.",
-      "doi": "10.1101/gr.195743.115"
+      "doi": "10.1101/gr.195743.115",
+      "citedByCount": 16893
     },
     {
       "anon_id": "ANON_42",
@@ -1633,7 +1680,8 @@
       "reproducibility": 1.7,
       "review_path": "reviews_anon/ANON_42.md",
       "authors": "Hadfield J, Megill C, Bell SM, Huddleston J, Potter B, Callender C, Sagulenko P, Bedford T, Neher RA.",
-      "doi": "10.1093/bioinformatics/bty407"
+      "doi": "10.1093/bioinformatics/bty407",
+      "citedByCount": 3154
     },
     {
       "anon_id": "ANON_23",
@@ -1654,7 +1702,8 @@
       "reproducibility": 1.8,
       "review_path": "reviews_anon/ANON_23.md",
       "authors": "Love MI, Huber W, Anders S.",
-      "doi": "10.1186/s13059-014-0550-8"
+      "doi": "10.1186/s13059-014-0550-8",
+      "citedByCount": 95142
     },
     {
       "anon_id": "ANON_30",
@@ -1675,7 +1724,8 @@
       "reproducibility": 1.4,
       "review_path": "reviews_anon/ANON_30.md",
       "authors": "Li Y, Ge X, Peng F, Li W, Li JJ.",
-      "doi": "10.1186/s13059-022-02648-4"
+      "doi": "10.1186/s13059-022-02648-4",
+      "citedByCount": 303
     },
     {
       "pmcid": "PMC7984229",
@@ -2522,7 +2572,7 @@
       "year": 2024,
       "domain": "Molecular Evolution",
       "citation_tier": "Low (0-4)",
-      "citedByCount": 0,
+      "citedByCount": 2,
       "scrubbed_bytes": 57190,
       "overall": 5.2,
       "tier": "Mixed / Salvageable",
@@ -3131,7 +3181,7 @@
       "authors": "Sayseng JO, Chuang TW.",
       "journal": "Geohealth",
       "year": 2025,
-      "citedByCount": 0,
+      "citedByCount": 2,
       "isOpenAccess": "Y",
       "anon_id": "ANON_190",
       "scrubbed_bytes": 47647,
@@ -3515,7 +3565,7 @@
       "authors": "Rampai T, Nopgasorn R, Laoteng K, Wannawilai S.",
       "journal": "Microorganisms",
       "year": 2025,
-      "citedByCount": 0,
+      "citedByCount": 2,
       "isOpenAccess": "Y",
       "anon_id": "ANON_143",
       "scrubbed_bytes": 34973,
@@ -3587,7 +3637,7 @@
       "authors": "Jing TX, Zhang YJ, Li PX, Wang Q, Yang J, Su HH, Zhang S.",
       "journal": "Genes (Basel)",
       "year": 2025,
-      "citedByCount": 0,
+      "citedByCount": 1,
       "isOpenAccess": "Y",
       "anon_id": "ANON_153",
       "scrubbed_bytes": 41509,
@@ -3899,7 +3949,7 @@
       "authors": "Magwebu ZE, Khoza S, Mazinu M, Jordaan E, Ghai M, Chauke CG.",
       "journal": "BMC Vet Res",
       "year": 2025,
-      "citedByCount": 0,
+      "citedByCount": 1,
       "isOpenAccess": "Y",
       "anon_id": "ANON_142",
       "scrubbed_bytes": 30890,
@@ -4307,7 +4357,7 @@
       "authors": "Pu H, Qiu P, Guo H, Lei J, Liu Y, Wei W, Hu J, Qin J, Wang R, Ye K, Xu Z, Wu Z, Lu X, Zhou Z.",
       "journal": "BMC Public Health",
       "year": 2025,
-      "citedByCount": 0,
+      "citedByCount": 1,
       "isOpenAccess": "Y",
       "anon_id": "ANON_135",
       "scrubbed_bytes": 33769,
@@ -4571,7 +4621,7 @@
       "authors": "Liu Y, Sun J, Li H, Zhang W, Sheng J, Wang G, Wu J.",
       "journal": "Biology (Basel)",
       "year": 2025,
-      "citedByCount": 0,
+      "citedByCount": 1,
       "isOpenAccess": "Y",
       "anon_id": "ANON_172",
       "scrubbed_bytes": 60194,

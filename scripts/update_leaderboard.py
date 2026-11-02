@@ -594,10 +594,17 @@ def build_unified_catalog(index_entries: list[dict]) -> dict:
         "Career Self-Audit: A. Nekrutenko (N=74)",
         "Community / Issue-Triggered Reviews",
     }
+    backfill_file = ROOT / "citation_backfill.json"
+    backfill_map = json.loads(backfill_file.read_text(encoding="utf-8")) if backfill_file.exists() else {}
+
     for r in records:
         if r.get("experiment") not in named_cohorts:
             r["authors"] = ""
             r["authors_short"] = ""
+        if not r.get("citedByCount"):
+            bf = backfill_map.get(r["uid"]) or backfill_map.get(r["code"]) or backfill_map.get(r["anon_id"]) or 0
+            if bf > 0:
+                r["citedByCount"] = bf
 
     # Sort descending by overall score, then citations
     records.sort(key=lambda x: (x["overall"], x.get("citedByCount", 0)), reverse=True)
