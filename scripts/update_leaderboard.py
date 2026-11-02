@@ -670,7 +670,7 @@ def format_compact_readme_section(catalog: dict) -> str:
     lines = [
         f"### Interactive GitHub Pages Explorer (`{total_n:,}` Audited Manuscripts & Reviews)",
         "",
-        "> **[Launch Interactive Review Explorer & Graphical Dashboard (`spond.github.io/gemini-reviews`)](https://spond.github.io/gemini-reviews/)**",
+        "> **[Launch Interactive Review Explorer & Graphical Dashboard (`veg.github.io/BARS`)](https://veg.github.io/BARS/)**",
         ">",
         "> Browse, search, and filter all **`1,560+` full-text scientific peer reviews** (and **`100+` paired verbatim human referee reports**) by **Cohort, Subfield, Venue Tier, Decade (`1991–2026`), Study Modality, Technology Maturity, Citation Impact, and Composite Score**, with interactive charts and clickable drill-down to every individual review dossier.",
         "",
@@ -679,23 +679,23 @@ def format_compact_readme_section(catalog: dict) -> str:
     ]
 
     doc_links = {
-        "Calibration: Cohort B (Validated Controls)": "[`CALIBRATION.md`](CALIBRATION.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=Calibration%3A%20Cohort%20B%20(Validated%20Controls))",
-        "Calibration: Cohort A (Known Invalid)": "[`CALIBRATION.md`](CALIBRATION.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=Calibration%3A%20Cohort%20A%20(Known%20Invalid))",
-        "Calibration: Cohort C (Wild 2024–2025)": "[`CALIBRATION.md`](CALIBRATION.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=Calibration%3A%20Cohort%20C%20(Wild%202024%E2%80%932025))",
-        "Out-of-Domain Wild (N=60)": "[`OOD_GENERALIZATION.md`](OOD_GENERALIZATION.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=Out-of-Domain%20Wild%20(N%3D60))",
-        "8-Field Everyday Expansion (N=160)": "[`OOD_GENERALIZATION.md`](OOD_GENERALIZATION.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=8-Field%20Everyday%20Expansion%20(N%3D160))",
-        "Preprint vs. Published (N=100)": "[`PEER_REVIEW_VALUE_ADDED.md`](PEER_REVIEW_VALUE_ADDED.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=Preprint%20vs.%20Published%20(N%3D100))",
-        "Open-Review Concordance (N=100)": "[`PEER_REVIEW_VALUE_ADDED.md`](PEER_REVIEW_VALUE_ADDED.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=Open-Review%20Concordance%20(N%3D100))",
-        "35-Year Secular Trend (N=915)": "[`SECULAR_TRENDS_AND_COVARIATES.md`](SECULAR_TRENDS_AND_COVARIATES.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=35-Year%20Secular%20Trend%20(N%3D915))",
-        "Career Self-Audit: S. Pond (N=164)": "[`SPOND_SELF_AUDIT.md`](SPOND_SELF_AUDIT.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=Career%20Self-Audit%3A%20S.%20Pond%20(N%3D164))",
-        "Career Self-Audit: A. Nekrutenko (N=74)": "[`ANTON_SELF_AUDIT.md`](ANTON_SELF_AUDIT.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=Career%20Self-Audit%3A%20A.%20Nekrutenko%20(N%3D74))",
-        "Community / Issue-Triggered Reviews": "[`PROTOCOL.md`](PROTOCOL.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=Community%20%2F%20Issue-Triggered%20Reviews)",
+        "Calibration: Cohort B (Validated Controls)": "[`CALIBRATION.md`](CALIBRATION.md) · [Explore](https://veg.github.io/BARS/#experiment=Calibration%3A%20Cohort%20B%20(Validated%20Controls))",
+        "Calibration: Cohort A (Known Invalid)": "[`CALIBRATION.md`](CALIBRATION.md) · [Explore](https://veg.github.io/BARS/#experiment=Calibration%3A%20Cohort%20A%20(Known%20Invalid))",
+        "Calibration: Cohort C (Wild 2024–2025)": "[`CALIBRATION.md`](CALIBRATION.md) · [Explore](https://veg.github.io/BARS/#experiment=Calibration%3A%20Cohort%20C%20(Wild%202024%E2%80%932025))",
+        "Out-of-Domain Wild (N=60)": "[`OOD_GENERALIZATION.md`](OOD_GENERALIZATION.md) · [Explore](https://veg.github.io/BARS/#experiment=Out-of-Domain%20Wild%20(N%3D60))",
+        "8-Field Everyday Expansion (N=160)": "[`OOD_GENERALIZATION.md`](OOD_GENERALIZATION.md) · [Explore](https://veg.github.io/BARS/#experiment=8-Field%20Everyday%20Expansion%20(N%3D160))",
+        "Preprint vs. Published (N=100)": "[`PEER_REVIEW_VALUE_ADDED.md`](PEER_REVIEW_VALUE_ADDED.md) · [Explore](https://veg.github.io/BARS/#experiment=Preprint%20vs.%20Published%20(N%3D100))",
+        "Open-Review Concordance (N=100)": "[`PEER_REVIEW_VALUE_ADDED.md`](PEER_REVIEW_VALUE_ADDED.md) · [Explore](https://veg.github.io/BARS/#experiment=Open-Review%20Concordance%20(N%3D100))",
+        "35-Year Secular Trend (N=915)": "[`SECULAR_TRENDS_AND_COVARIATES.md`](SECULAR_TRENDS_AND_COVARIATES.md) · [Explore](https://veg.github.io/BARS/#experiment=35-Year%20Secular%20Trend%20(N%3D915))",
+        "Career Self-Audit: S. Pond (N=164)": "[`SPOND_SELF_AUDIT.md`](SPOND_SELF_AUDIT.md) · [Explore](https://veg.github.io/BARS/#experiment=Career%20Self-Audit%3A%20S.%20Pond%20(N%3D164))",
+        "Career Self-Audit: A. Nekrutenko (N=74)": "[`ANTON_SELF_AUDIT.md`](ANTON_SELF_AUDIT.md) · [Explore](https://veg.github.io/BARS/#experiment=Career%20Self-Audit%3A%20A.%20Nekrutenko%20(N%3D74))",
+        "Community / Issue-Triggered Reviews": "[`PROTOCOL.md`](PROTOCOL.md) · [Explore](https://veg.github.io/BARS/#experiment=Community%20%2F%20Issue-Triggered%20Reviews)",
     }
 
     for cs in catalog["cohort_summaries"]:
         exp = cs["experiment"]
         lines.append(
-            f"| **{exp}** | `{cs['n']:,}` | **{cs['mean']:.2f}** $\\pm$ {cs['sd']:.2f} | **{cs['median']:.2f}** | **{cs['fail_50_pct']:.1f}%** | **{cs['flaw_65_pct']:.1f}%** | {doc_links.get(exp, '[Explore](https://spond.github.io/gemini-reviews/)')} |"
+            f"| **{exp}** | `{cs['n']:,}` | **{cs['mean']:.2f}** $\\pm$ {cs['sd']:.2f} | **{cs['median']:.2f}** | **{cs['fail_50_pct']:.1f}%** | **{cs['flaw_65_pct']:.1f}%** | {doc_links.get(exp, '[Explore](https://veg.github.io/BARS/)')} |"
         )
 
     lines.extend(

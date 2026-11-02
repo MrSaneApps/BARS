@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Poll GitHub Issues on spond/gemini-reviews for open issues labeled 'pending-review'
+Poll GitHub Issues on veg/BARS for open issues labeled 'pending-review'
 (or with title starting with '[Review]'). Outputs JSON list of pending review requests.
 """
 
@@ -8,7 +8,7 @@ import json
 import subprocess
 import sys
 
-REPO = "spond/gemini-reviews"
+REPO = "veg/BARS"
 
 
 def fetch_pending_issues() -> list[dict]:

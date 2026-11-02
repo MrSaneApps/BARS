@@ -1,4 +1,4 @@
-# Gemini Scientific Peer Reviews (`spond/gemini-reviews`)
+# BARS: Blinded AI Review System (`veg/BARS`)
 
 Direct, technically rigorous peer reviews of published manuscripts and preprints in quantitative biology, evolutionary genomics, statistical modeling, bioinformatics, and epidemiology, following the [7-Pillar Rapid Audit, Anti-LLM Trope Mandate, and 3-Section Review Protocol](REVIEW_TEMPLATE.md).
 
@@ -98,23 +98,23 @@ Across all **`1,480` unique scrubbed full-text manuscripts** and **`1,568` gener
 <!-- LEADERBOARD_START -->
 ### Interactive GitHub Pages Explorer (`1,777` Audited Manuscripts & Reviews)
 
-> **[Launch Interactive Review Explorer & Graphical Dashboard (`spond.github.io/gemini-reviews`)](https://spond.github.io/gemini-reviews/)**
+> **[Launch Interactive Review Explorer & Graphical Dashboard (`veg.github.io/BARS`)](https://veg.github.io/BARS/)**
 >
 > Browse, search, and filter all **`1,560+` full-text scientific peer reviews** (and **`100+` paired verbatim human referee reports**) by **Cohort, Subfield, Venue Tier, Decade (`1991–2026`), Study Modality, Technology Maturity, Citation Impact, and Composite Score**, with interactive charts and clickable drill-down to every individual review dossier.
 
 | Experiment / Cohort | Manuscripts ($N$) | Mean $\pm$ SD (/10) | Median | Strict Failure ($<5.0$) | Major Flaw ($<6.5$) | Documentation & Explorer |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Calibration: Cohort B (Validated Controls)** | `50` | **8.64** $\pm$ 0.84 | **8.85** | **0.0%** | **4.0%** | [`CALIBRATION.md`](CALIBRATION.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=Calibration%3A%20Cohort%20B%20(Validated%20Controls)) |
-| **Calibration: Cohort A (Known Invalid)** | `50` | **4.42** $\pm$ 1.97 | **4.10** | **66.0%** | **80.0%** | [`CALIBRATION.md`](CALIBRATION.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=Calibration%3A%20Cohort%20A%20(Known%20Invalid)) |
-| **Calibration: Cohort C (Wild 2024–2025)** | `101` | **5.48** $\pm$ 1.78 | **5.40** | **42.6%** | **70.3%** | [`CALIBRATION.md`](CALIBRATION.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=Calibration%3A%20Cohort%20C%20(Wild%202024%E2%80%932025)) |
-| **Out-of-Domain Wild (N=60)** | `60` | **4.88** $\pm$ 1.88 | **4.80** | **55.0%** | **81.7%** | [`OOD_GENERALIZATION.md`](OOD_GENERALIZATION.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=Out-of-Domain%20Wild%20(N%3D60)) |
-| **8-Field Everyday Expansion (N=160)** | `160` | **4.51** $\pm$ 1.94 | **4.30** | **60.6%** | **78.1%** | [`OOD_GENERALIZATION.md`](OOD_GENERALIZATION.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=8-Field%20Everyday%20Expansion%20(N%3D160)) |
-| **Preprint vs. Published (N=100)** | `100` | **6.69** $\pm$ 1.43 | **6.80** | **11.0%** | **45.0%** | [`PEER_REVIEW_VALUE_ADDED.md`](PEER_REVIEW_VALUE_ADDED.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=Preprint%20vs.%20Published%20(N%3D100)) |
-| **Open-Review Concordance (N=100)** | `100` | **6.25** $\pm$ 1.98 | **6.60** | **28.0%** | **45.0%** | [`PEER_REVIEW_VALUE_ADDED.md`](PEER_REVIEW_VALUE_ADDED.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=Open-Review%20Concordance%20(N%3D100)) |
-| **35-Year Secular Trend (N=915)** | `915` | **6.57** $\pm$ 1.75 | **6.80** | **19.7%** | **41.5%** | [`SECULAR_TRENDS_AND_COVARIATES.md`](SECULAR_TRENDS_AND_COVARIATES.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=35-Year%20Secular%20Trend%20(N%3D915)) |
-| **Career Self-Audit: S. Pond (N=164)** | `164` | **7.53** $\pm$ 1.38 | **7.85** | **4.9%** | **20.7%** | [`SPOND_SELF_AUDIT.md`](SPOND_SELF_AUDIT.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=Career%20Self-Audit%3A%20S.%20Pond%20(N%3D164)) |
-| **Career Self-Audit: A. Nekrutenko (N=74)** | `74` | **7.68** $\pm$ 0.86 | **7.75** | **1.4%** | **8.1%** | [`ANTON_SELF_AUDIT.md`](ANTON_SELF_AUDIT.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=Career%20Self-Audit%3A%20A.%20Nekrutenko%20(N%3D74)) |
-| **Community / Issue-Triggered Reviews** | `3` | **7.03** $\pm$ 1.08 | **7.50** | **0.0%** | **33.3%** | [`PROTOCOL.md`](PROTOCOL.md) · [Explore](https://spond.github.io/gemini-reviews/#experiment=Community%20%2F%20Issue-Triggered%20Reviews) |
+| **Calibration: Cohort B (Validated Controls)** | `50` | **8.64** $\pm$ 0.84 | **8.85** | **0.0%** | **4.0%** | [`CALIBRATION.md`](CALIBRATION.md) · [Explore](https://veg.github.io/BARS/#experiment=Calibration%3A%20Cohort%20B%20(Validated%20Controls)) |
+| **Calibration: Cohort A (Known Invalid)** | `50` | **4.42** $\pm$ 1.97 | **4.10** | **66.0%** | **80.0%** | [`CALIBRATION.md`](CALIBRATION.md) · [Explore](https://veg.github.io/BARS/#experiment=Calibration%3A%20Cohort%20A%20(Known%20Invalid)) |
+| **Calibration: Cohort C (Wild 2024–2025)** | `101` | **5.48** $\pm$ 1.78 | **5.40** | **42.6%** | **70.3%** | [`CALIBRATION.md`](CALIBRATION.md) · [Explore](https://veg.github.io/BARS/#experiment=Calibration%3A%20Cohort%20C%20(Wild%202024%E2%80%932025)) |
+| **Out-of-Domain Wild (N=60)** | `60` | **4.88** $\pm$ 1.88 | **4.80** | **55.0%** | **81.7%** | [`OOD_GENERALIZATION.md`](OOD_GENERALIZATION.md) · [Explore](https://veg.github.io/BARS/#experiment=Out-of-Domain%20Wild%20(N%3D60)) |
+| **8-Field Everyday Expansion (N=160)** | `160` | **4.51** $\pm$ 1.94 | **4.30** | **60.6%** | **78.1%** | [`OOD_GENERALIZATION.md`](OOD_GENERALIZATION.md) · [Explore](https://veg.github.io/BARS/#experiment=8-Field%20Everyday%20Expansion%20(N%3D160)) |
+| **Preprint vs. Published (N=100)** | `100` | **6.69** $\pm$ 1.43 | **6.80** | **11.0%** | **45.0%** | [`PEER_REVIEW_VALUE_ADDED.md`](PEER_REVIEW_VALUE_ADDED.md) · [Explore](https://veg.github.io/BARS/#experiment=Preprint%20vs.%20Published%20(N%3D100)) |
+| **Open-Review Concordance (N=100)** | `100` | **6.25** $\pm$ 1.98 | **6.60** | **28.0%** | **45.0%** | [`PEER_REVIEW_VALUE_ADDED.md`](PEER_REVIEW_VALUE_ADDED.md) · [Explore](https://veg.github.io/BARS/#experiment=Open-Review%20Concordance%20(N%3D100)) |
+| **35-Year Secular Trend (N=915)** | `915` | **6.57** $\pm$ 1.75 | **6.80** | **19.7%** | **41.5%** | [`SECULAR_TRENDS_AND_COVARIATES.md`](SECULAR_TRENDS_AND_COVARIATES.md) · [Explore](https://veg.github.io/BARS/#experiment=35-Year%20Secular%20Trend%20(N%3D915)) |
+| **Career Self-Audit: S. Pond (N=164)** | `164` | **7.53** $\pm$ 1.38 | **7.85** | **4.9%** | **20.7%** | [`SPOND_SELF_AUDIT.md`](SPOND_SELF_AUDIT.md) · [Explore](https://veg.github.io/BARS/#experiment=Career%20Self-Audit%3A%20S.%20Pond%20(N%3D164)) |
+| **Career Self-Audit: A. Nekrutenko (N=74)** | `74` | **7.68** $\pm$ 0.86 | **7.75** | **1.4%** | **8.1%** | [`ANTON_SELF_AUDIT.md`](ANTON_SELF_AUDIT.md) · [Explore](https://veg.github.io/BARS/#experiment=Career%20Self-Audit%3A%20A.%20Nekrutenko%20(N%3D74)) |
+| **Community / Issue-Triggered Reviews** | `3` | **7.03** $\pm$ 1.08 | **7.50** | **0.0%** | **33.3%** | [`PROTOCOL.md`](PROTOCOL.md) · [Explore](https://veg.github.io/BARS/#experiment=Community%20%2F%20Issue-Triggered%20Reviews) |
 
 *Complete machine-readable indices are committed in [`catalog.json`](catalog.json) (all cohorts) and [`index.json`](index.json) (calibration & issue ledger).*
 <!-- LEADERBOARD_END -->

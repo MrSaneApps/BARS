@@ -570,8 +570,8 @@
       <p>Empirical Calibration, 35-Year Longitudinal Secular Trends (1991–2025), Human-vs.-AI Open-Review Concordance, and Structural Error Estimation across Quantitative Biology &amp; Biomedicine</p>
     </div>
     <div class="header-links">
-      <a class="btn-header primary" href="https://github.com/spond/gemini-reviews/issues/new?template=review_request.yml" target="_blank">Request a Review</a>
-      <a class="btn-header" href="https://github.com/spond/gemini-reviews" target="_blank">GitHub Repository</a>
+      <a class="btn-header primary" href="https://github.com/veg/BARS/issues/new?template=review_request.yml" target="_blank">Request a Review</a>
+      <a class="btn-header" href="https://github.com/veg/BARS" target="_blank">GitHub Repository</a>
       <a class="btn-header" href="#doc=CALIBRATION.md" onclick="event.preventDefault(); openMarkdownDoc('CALIBRATION.md', 'Empirical Calibration & Ground-Truth Study (N = 200)')">Calibration</a>
       <a class="btn-header" href="#doc=REPEATABILITY.md" onclick="event.preventDefault(); openMarkdownDoc('REPEATABILITY.md', 'Intra-Agent Test–Retest Repeatability Study (N = 30 × 3)')">Repeatability</a>
       <a class="btn-header" href="#doc=SECULAR_TRENDS_AND_COVARIATES.md" onclick="event.preventDefault(); openMarkdownDoc('SECULAR_TRENDS_AND_COVARIATES.md', '35-Year Secular Trends & Covariate Decomposition (1991–2025)')">35-Yr Secular Study</a>
@@ -588,7 +588,7 @@
       <strong>Automated Blinded Main-Text Audit Notice:</strong> Every review in this catalog was generated <strong>100% blind</strong> (titles, author names, affiliations, venues, and publication dates stripped prior to evaluation) from open-access Europe PMC <strong>main-text XML only</strong>, without access to external supplementary files (<code>.xlsx</code>, <code>.pdf</code>, <code>.zip</code>) or external repositories. Scores reflect an automated diagnostic screen of the main text under a fixed rubric, not a judgment of author intent or misconduct. To prevent name-based targeting, author names are omitted from the table and search index for randomly sampled literature cohorts (and shown only for our own Career Self-Audits and Calibration Controls).
     </div>
     <div class="scope-banner-actions">
-      <a class="btn-adjudicate" href="https://github.com/spond/gemini-reviews/issues/new?title=Adjudication+%2F+Supplement+Context+Request" target="_blank">⚖️ Submit Supplement Context / Request Adjudication ↗</a>
+      <a class="btn-adjudicate" href="https://github.com/veg/BARS/issues/new?title=Adjudication+%2F+Supplement+Context+Request" target="_blank">⚖️ Submit Supplement Context / Request Adjudication ↗</a>
     </div>
   </div>
   <!-- KPI Strip -->
@@ -941,7 +941,7 @@ function buildAdjudicationUrl(rec) {
     `Please describe any supplementary table/figure, external code/data repository, or Europe PMC XML conversion artifact relevant to this automated main-text review:`,
     ``
   ].join('\n');
-  return `https://github.com/spond/gemini-reviews/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+  return `https://github.com/veg/BARS/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
 }
 
 function escapeHtml(str) {
@@ -1451,7 +1451,7 @@ async function openDossier(uid) {
     <strong>Citations:</strong> ${(rec.citedByCount || 0).toLocaleString()} &nbsp;|&nbsp;
     <strong>Code:</strong> <code>${escapeHtml(rec.code)}</code> (<code>${escapeHtml(rec.anon_id)}</code>)
     ${rec.url ? ` &nbsp;|&nbsp; <a href="${escapeHtml(rec.url)}" target="_blank">View Article on PubMed Central ↗</a>` : ''}
-    ${rec.review_path ? ` &nbsp;|&nbsp; <a href="https://github.com/spond/gemini-reviews/blob/main/${escapeHtml(rec.review_path)}" target="_blank">View on GitHub ↗</a>` : ''}
+    ${rec.review_path ? ` &nbsp;|&nbsp; <a href="https://github.com/veg/BARS/blob/main/${escapeHtml(rec.review_path)}" target="_blank">View on GitHub ↗</a>` : ''}
     &nbsp;|&nbsp; <a class="btn-adjudicate" style="padding:0.2rem 0.55rem;font-size:0.75rem;" href="${escapeHtml(adjudicateUrl)}" target="_blank">⚖️ Submit Supplement / Request Adjudication ↗</a>
   `;
 
@@ -1491,7 +1491,7 @@ async function openMarkdownDoc(mdFile, docTitle) {
     <span class="tag-chip sel">Study Documentation</span>
     <span class="tag-chip"><code>${escapeHtml(mdFile)}</code></span>
   `;
-  const ghUrl = `https://github.com/spond/gemini-reviews/blob/main/${encodeURIComponent(mdFile)}`;
+  const ghUrl = `https://github.com/veg/BARS/blob/main/${encodeURIComponent(mdFile)}`;
   document.getElementById('drawerMeta').innerHTML = `
     <strong>Document:</strong> <code>${escapeHtml(mdFile)}</code> &nbsp;|&nbsp;
     <a href="${ghUrl}" target="_blank">View on GitHub ↗</a>
