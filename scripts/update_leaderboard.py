@@ -585,6 +585,20 @@ def build_unified_catalog(index_entries: list[dict]) -> dict:
                 }
             )
 
+    # Omit author names from public UI catalog.json for randomly sampled cohorts
+    # (retaining author names only for Career Self-Audits, Calibration Controls A/B, and Community Reviews)
+    named_cohorts = {
+        "Calibration: Cohort A (Known Invalid)",
+        "Calibration: Cohort B (Validated Controls)",
+        "Career Self-Audit: S. Pond (N=164)",
+        "Career Self-Audit: A. Nekrutenko (N=74)",
+        "Community / Issue-Triggered Reviews",
+    }
+    for r in records:
+        if r.get("experiment") not in named_cohorts:
+            r["authors"] = ""
+            r["authors_short"] = ""
+
     # Sort descending by overall score, then citations
     records.sort(key=lambda x: (x["overall"], x.get("citedByCount", 0)), reverse=True)
 

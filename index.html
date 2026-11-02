@@ -505,6 +505,58 @@
     }
     .arch-card h4 { margin: 0 0 0.35rem 0; font-size: 0.92rem; color: #1e293b; }
     .arch-card p { margin: 0 0 0.5rem 0; font-size: 0.82rem; color: var(--text-muted); }
+
+    /* Scope & Methodology Notice Banner */
+    .scope-banner {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-left: 4px solid #2563eb;
+      border-radius: 8px;
+      padding: 0.85rem 1.15rem;
+      margin-bottom: 1.15rem;
+      font-size: 0.84rem;
+      color: #1e293b;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.85rem;
+    }
+    .scope-banner-text {
+      flex: 1 1 680px;
+      line-height: 1.48;
+    }
+    .scope-banner-actions {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .btn-adjudicate {
+      display: inline-block;
+      background: #1d4ed8;
+      color: #fff !important;
+      font-weight: 600;
+      font-size: 0.8rem;
+      padding: 0.42rem 0.8rem;
+      border-radius: 6px;
+      white-space: nowrap;
+      border: 1px solid #1e40af;
+    }
+    .btn-adjudicate:hover {
+      background: #1e40af;
+      text-decoration: none;
+    }
+    .drawer-scope-note {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-left: 4px solid #3b82f6;
+      border-radius: 6px;
+      padding: 0.7rem 0.95rem;
+      margin-bottom: 1.1rem;
+      font-size: 0.83rem;
+      color: #334155;
+      line-height: 1.45;
+    }
   </style>
 </head>
 <body>
@@ -526,6 +578,15 @@
 </header>
 
 <div class="container">
+  <!-- Automated Scope, Blinding & Adjudication Notice -->
+  <div class="scope-banner">
+    <div class="scope-banner-text">
+      <strong>Automated Blinded Main-Text Audit Notice:</strong> Every review in this catalog was generated <strong>100% blind</strong> (titles, author names, affiliations, venues, and publication dates stripped prior to evaluation) from open-access Europe PMC <strong>main-text XML only</strong>, without access to external supplementary files (<code>.xlsx</code>, <code>.pdf</code>, <code>.zip</code>) or external repositories. Scores reflect an automated diagnostic screen of the main text under a fixed rubric, not a judgment of author intent or misconduct. To prevent name-based targeting, author names are omitted from the table and search index for randomly sampled literature cohorts (and shown only for our own Career Self-Audits and Calibration Controls).
+    </div>
+    <div class="scope-banner-actions">
+      <a class="btn-adjudicate" href="https://github.com/spond/gemini-reviews/issues/new?title=Adjudication+%2F+Supplement+Context+Request" target="_blank">⚖️ Submit Supplement Context / Request Adjudication ↗</a>
+    </div>
+  </div>
   <!-- KPI Strip -->
   <div class="kpi-grid">
     <div class="kpi-card">
@@ -566,7 +627,7 @@
       <button class="tab-btn active" onclick="switchTab('overview', this)">1. Cohort Overview &amp; Active Filter Distribution</button>
       <button class="tab-btn" onclick="switchTab('secular', this)">2. 35-Year Secular Trajectory &amp; Dilution (N = 915)</button>
       <button class="tab-btn" onclick="switchTab('human', this)">3. Human vs. AI Peer Review Concordance (N = 100 + 20 Pairs)</button>
-      <button class="tab-btn" onclick="switchTab('failures', this)">4. Highly Cited Failure Papers (&lt;5.0, Non-Training)</button>
+      <button class="tab-btn" onclick="switchTab('failures', this)">4. Highly Cited Low-Scoring Papers (&lt;5.0, Non-Training)</button>
       <button class="tab-btn" onclick="switchTab('selfaudit', this)">5. Blinded Career Self-Audit (N = 164)</button>
     </div>
 
@@ -690,14 +751,14 @@
   <!-- Search & Multi-Facet Filter Controls -->
   <div class="filter-card">
     <div class="filter-top">
-      <input type="text" id="searchInput" class="search-input" placeholder="Search by title, author, journal, PMCID (e.g. PMC7157669), code (e.g. TIME_ANON_0224, OPEN_ANON_011), or keyword..." oninput="onFilterChange()" />
+      <input type="text" id="searchInput" class="search-input" placeholder="Search by title, journal, PMCID (e.g. PMC7157669), review code (e.g. TIME_ANON_0224, OPEN_ANON_011), or subfield..." oninput="onFilterChange()" />
       <div class="preset-pills">
         <button class="pill-btn active" id="preset-all" onclick="setPreset('all')">All Manuscripts</button>
         <button class="pill-btn" id="preset-wild" onclick="setPreset('wild')">Wild Literature Only</button>
         <button class="pill-btn" id="preset-human" onclick="setPreset('human')">Has Human Peer Review</button>
         <button class="pill-btn" id="preset-exemplary" onclick="setPreset('exemplary')">Exemplary (&ge;9.0)</button>
-        <button class="pill-btn" id="preset-failed" onclick="setPreset('failed')">Failed (&lt;5.0)</button>
-        <button class="pill-btn" id="preset-highcite_fail" onclick="setPreset('highcite_fail')">Highly Cited Failures (&ge;50 Cites &amp; &lt;5.0)</button>
+        <button class="pill-btn" id="preset-failed" onclick="setPreset('failed')">Score &lt; 5.0</button>
+        <button class="pill-btn" id="preset-highcite_fail" onclick="setPreset('highcite_fail')">Highly Cited &amp; Score &lt; 5.0 (&ge;50 Cites)</button>
         <button class="pill-btn" onclick="resetFilters()">Reset</button>
       </div>
     </div>
@@ -762,8 +823,8 @@
       <span>Showing: <strong id="statCount">0</strong> manuscripts</span>
       <span>Mean Score: <strong id="statMean">—</strong> / 10</span>
       <span>Median: <strong id="statMedian">—</strong></span>
-      <span>Strict Failure (&lt;5.0): <strong id="statFail50">—</strong></span>
-      <span>Major Flaw (&lt;6.5): <strong id="statFlaw65">—</strong></span>
+      <span>Score &lt; 5.0: <strong id="statFail50">—</strong></span>
+      <span>Score &lt; 6.5: <strong id="statFlaw65">—</strong></span>
     </div>
     <div>Click any row to open the full blinded review dossier &amp; human referee report</div>
   </div>
@@ -775,7 +836,7 @@
         <thead>
           <tr>
             <th onclick="setSort('code')">ID / Code</th>
-            <th onclick="setSort('title')">Manuscript Title &amp; Authors</th>
+            <th onclick="setSort('title')">Manuscript Title &amp; Attributes</th>
             <th onclick="setSort('journal')">Venue &amp; Year</th>
             <th onclick="setSort('experiment')">Cohort / Subfield</th>
             <th onclick="setSort('cites')">Cites</th>
@@ -844,6 +905,39 @@ function tierClass(tier) {
   if (tier.includes('Mixed')) return 'tier-Mixed';
   if (tier.includes('Flawed')) return 'tier-Flawed';
   return 'tier-Invalid';
+}
+
+function displayTier(tier) {
+  if (!tier) return 'Mixed';
+  if (tier.includes('Exemplary')) return 'Exemplary';
+  if (tier.includes('Strong')) return 'Strong / Sound';
+  if (tier.includes('Mixed')) return 'Mixed / Salvageable';
+  if (tier.includes('Flawed')) return 'Major Limitations';
+  return 'Severe Limitations';
+}
+
+function showAuthorsForRecord(r) {
+  if (!r || !r.experiment) return false;
+  return (
+    r.experiment.includes('Self-Audit') ||
+    r.experiment.includes('Cohort A') ||
+    r.experiment.includes('Cohort B') ||
+    r.experiment.includes('Community')
+  );
+}
+
+function buildAdjudicationUrl(rec) {
+  const title = `Adjudication / Supplement Context: ${rec.code}${rec.pmcid ? ' (' + rec.pmcid + ')' : ''}`;
+  const body = [
+    `**Review Code:** \`${rec.code}\` (\`${rec.anon_id}\`)`,
+    `**PMCID / Identifier:** ${rec.pmcid || rec.pmid || rec.doi || 'N/A'}`,
+    `**Current Automated Main-Text Score:** ${rec.overall.toFixed(1)} / 10.0`,
+    ``,
+    `### Supplementary File / XML Conversion / Methodological Context`,
+    `Please describe any supplementary table/figure, external code/data repository, or Europe PMC XML conversion artifact relevant to this automated main-text review:`,
+    ``
+  ].join('\n');
+  return `https://github.com/spond/gemini-reviews/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
 }
 
 function escapeHtml(str) {
@@ -947,7 +1041,8 @@ function onFilterChange() {
     if (dec && r.decade !== dec) return false;
     if (mod && !(r.study_modality || '').includes(mod)) return false;
     if (q) {
-      const hay = `${r.code} ${r.anon_id} ${r.pmcid} ${r.pmid} ${r.doi} ${r.title} ${r.authors} ${r.journal} ${r.subfield} ${r.bias_category}`.toLowerCase();
+      const authHay = showAuthorsForRecord(r) ? `${r.authors} ${r.authors_short}` : '';
+      const hay = `${r.code} ${r.anon_id} ${r.pmcid} ${r.pmid} ${r.doi} ${r.title} ${authHay} ${r.journal} ${r.subfield} ${r.bias_category}`.toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
@@ -1024,6 +1119,10 @@ function renderTable() {
       ? `<span class="tag-chip">${escapeHtml(r.study_modality.replace('Dry-Lab ', '').replace('Wet-Lab ', ''))}</span>`
       : '';
 
+    const authorLine = showAuthorsForRecord(r) && r.authors_short
+      ? `<div style="font-size:0.78rem;color:var(--text-muted);">${escapeHtml(r.authors_short)}</div>`
+      : '';
+
     return `<tr class="data-row" onclick="openDossier('${escapeHtml(r.uid)}')">
       <td>
         <strong>${escapeHtml(r.code)}</strong>
@@ -1032,7 +1131,7 @@ function renderTable() {
       </td>
       <td style="max-width:410px;">
         <div style="font-weight:600;color:#0f172a;margin-bottom:0.18rem;">${escapeHtml(r.title)}</div>
-        <div style="font-size:0.78rem;color:var(--text-muted);">${escapeHtml(r.authors_short)}</div>
+        ${authorLine}
         <div>${vtBadge}${humBadge}${modBadge}</div>
       </td>
       <td>
@@ -1050,7 +1149,7 @@ function renderTable() {
       <td style="text-align:center;">${r.reproducibility.toFixed(1)}</td>
       <td style="text-align:center;">
         <span class="score-badge ${tClass}">${r.overall.toFixed(1)}</span>
-        <div style="font-size:0.7rem;color:var(--text-muted);margin-top:0.15rem;">${escapeHtml(r.tier)}</div>
+        <div style="font-size:0.7rem;color:var(--text-muted);margin-top:0.15rem;">${escapeHtml(displayTier(r.tier))}</div>
       </td>
       <td style="text-align:center;">
         <button class="pill-btn" onclick="event.stopPropagation(); openDossier('${escapeHtml(r.uid)}')">Read Review</button>
@@ -1284,19 +1383,23 @@ async function openDossier(uid) {
 
   document.getElementById('drawerTitle').textContent = rec.title;
   document.getElementById('drawerBadges').innerHTML = `
-    <span class="score-badge ${tierClass(rec.tier)}">${rec.overall.toFixed(1)} / 10</span>
+    <span class="score-badge ${tierClass(rec.tier)}">${rec.overall.toFixed(1)} / 10 (${escapeHtml(displayTier(rec.tier))})</span>
     <span class="tag-chip">${escapeHtml(rec.experiment)}</span>
     <span class="tag-chip">${escapeHtml(rec.subfield)}</span>
     <span class="tag-chip">${escapeHtml(rec.venue_tier)}</span>
     ${rec.study_modality && !rec.study_modality.includes('Not Annotated') ? `<span class="tag-chip">${escapeHtml(rec.study_modality)}</span>` : ''}
   `;
+  const authorMeta = showAuthorsForRecord(rec) && (rec.authors || rec.authors_short)
+    ? `<strong>Authors:</strong> ${escapeHtml(rec.authors || rec.authors_short)} &nbsp;|&nbsp; `
+    : '';
+  const adjudicateUrl = buildAdjudicationUrl(rec);
   document.getElementById('drawerMeta').innerHTML = `
-    <strong>Authors:</strong> ${escapeHtml(rec.authors || rec.authors_short)} &nbsp;|&nbsp;
-    <strong>Venue:</strong> ${escapeHtml(rec.journal)} (${rec.year}) &nbsp;|&nbsp;
+    ${authorMeta}<strong>Venue:</strong> ${escapeHtml(rec.journal)} (${rec.year}) &nbsp;|&nbsp;
     <strong>Citations:</strong> ${(rec.citedByCount || 0).toLocaleString()} &nbsp;|&nbsp;
     <strong>Code:</strong> <code>${escapeHtml(rec.code)}</code> (<code>${escapeHtml(rec.anon_id)}</code>)
     ${rec.url ? ` &nbsp;|&nbsp; <a href="${escapeHtml(rec.url)}" target="_blank">View Article on PubMed Central ↗</a>` : ''}
     ${rec.review_path ? ` &nbsp;|&nbsp; <a href="${escapeHtml(rec.review_path)}" target="_blank">Raw Markdown ↗</a>` : ''}
+    &nbsp;|&nbsp; <a class="btn-adjudicate" style="padding:0.2rem 0.55rem;font-size:0.75rem;" href="${escapeHtml(adjudicateUrl)}" target="_blank">⚖️ Submit Supplement / Request Adjudication ↗</a>
   `;
 
   document.getElementById('drawerScores').innerHTML = `
@@ -1400,7 +1503,12 @@ async function loadDrawerContent(mode) {
     const res = await fetch(path);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const md = await res.text();
-    body.innerHTML = marked.parse(md);
+    const scopeNote = mode === 'ai' ? `
+      <div class="drawer-scope-note">
+        <strong>Automated Main-Text XML Review (<code>${escapeHtml(CURRENT_RECORD.anon_id)}</code>):</strong> Generated blind from scrubbed Europe PMC main-text XML without access to external supplementary files (<code>.xlsx</code>, <code>.pdf</code>, <code>.zip</code>) or external repositories. If a flagged omission is addressed in a supplementary file or affected by XML conversion, please use <a href="${escapeHtml(buildAdjudicationUrl(CURRENT_RECORD))}" target="_blank"><strong>Submit Supplement / Request Adjudication ↗</strong></a> above.
+      </div>
+    ` : '';
+    body.innerHTML = scopeNote + marked.parse(md);
   } catch (err) {
     body.innerHTML = `<p style="color:red;">Could not load <code>${escapeHtml(path)}</code> (${escapeHtml(err.message)}). <a href="${escapeHtml(path)}" target="_blank">Open raw file</a></p>`;
   }
