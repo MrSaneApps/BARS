@@ -6,6 +6,8 @@
   <title>Gemini Scientific Peer Reviews — Interactive Explorer & Audit Ledger</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
   <style>
     :root {
       --bg: #f8fafc;
@@ -950,6 +952,55 @@ function escapeHtml(str) {
     .replace(/"/g, '&quot;');
 }
 
+function renderMarkdownWithMath(md) {
+  const codePlaceholders = [];
+  const mathPlaceholders = [];
+
+  // 1. Temporarily protect fenced code blocks and inline code spans so $ inside `...` is untouched
+  let protectedMd = String(md || '').replace(/```[\s\S]*?```|`[^`\n]+`/g, match => {
+    const idx = codePlaceholders.length;
+    codePlaceholders.push(match);
+    return `@@CODE_BLOCK_${idx}@@`;
+  });
+
+  // 2. Render display math $$...$$ via KaTeX before marked.parse mangles _ or *
+  protectedMd = protectedMd.replace(/\$\$([\s\S]+?)\$\$/g, (match, expr) => {
+    if (typeof katex === 'undefined') return match;
+    try {
+      const html = katex.renderToString(expr.trim(), { displayMode: true, throwOnError: false });
+      const idx = mathPlaceholders.length;
+      mathPlaceholders.push(html);
+      return `@@MATH_BLOCK_${idx}@@`;
+    } catch (e) {
+      return match;
+    }
+  });
+
+  // 3. Render inline math $...$ via KaTeX (skipping currency pairs like "$20 vs. $40")
+  protectedMd = protectedMd.replace(/\$([^\$\n]+?)\$/g, (match, expr) => {
+    if (typeof katex === 'undefined') return match;
+    if (/^\d[\d,.]*[kKmMbB]?\s+(?:vs\.?|and|or|to|per|in|at|for|from|with|transfer|million|billion)\b/i.test(expr)) {
+      return match;
+    }
+    try {
+      const html = katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false });
+      const idx = mathPlaceholders.length;
+      mathPlaceholders.push(html);
+      return `@@MATH_BLOCK_${idx}@@`;
+    } catch (e) {
+      return match;
+    }
+  });
+
+  // 4. Restore code spans before running marked.parse()
+  protectedMd = protectedMd.replace(/@@CODE_BLOCK_(\d+)@@/g, (_, idx) => codePlaceholders[Number(idx)]);
+
+  // 5. Parse Markdown into HTML and restore rendered KaTeX fragments
+  let renderedHtml = marked.parse(protectedMd);
+  renderedHtml = renderedHtml.replace(/@@MATH_BLOCK_(\d+)@@/g, (_, idx) => mathPlaceholders[Number(idx)]);
+  return renderedHtml;
+}
+
 async function initApp() {
   try {
     const res = await fetch('catalog.json');
@@ -1469,7 +1520,7 @@ async function openMarkdownDoc(mdFile, docTitle) {
     const res = await fetch(mdFile);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const md = await res.text();
-    body.innerHTML = marked.parse(md);
+    body.innerHTML = renderMarkdownWithMath(md);
     body.scrollTop = 0;
   } catch (err) {
     body.innerHTML = `<p style="color:red;">Could not load <code>${escapeHtml(mdFile)}</code> (${escapeHtml(err.message)}). <a href="${ghUrl}" target="_blank">View on GitHub ↗</a></p>`;
@@ -1553,7 +1604,7 @@ async function loadDrawerContent(mode) {
         <strong>Automated Main-Text XML Review (<code>${escapeHtml(CURRENT_RECORD.anon_id)}</code>):</strong> Generated blind from scrubbed Europe PMC main-text XML without access to external supplementary files (<code>.xlsx</code>, <code>.pdf</code>, <code>.zip</code>) or external repositories. If a flagged omission is addressed in a supplementary file or affected by XML conversion, please use <a href="${escapeHtml(buildAdjudicationUrl(CURRENT_RECORD))}" target="_blank"><strong>Submit Supplement / Request Adjudication ↗</strong></a> above.
       </div>
     ` : '';
-    body.innerHTML = scopeNote + marked.parse(md);
+    body.innerHTML = scopeNote + renderMarkdownWithMath(md);
   } catch (err) {
     body.innerHTML = `<p style="color:red;">Could not load <code>${escapeHtml(path)}</code> (${escapeHtml(err.message)}). <a href="${escapeHtml(path)}" target="_blank">Open raw file</a></p>`;
   }
