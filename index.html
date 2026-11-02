@@ -570,9 +570,11 @@
     <div class="header-links">
       <a class="btn-header primary" href="https://github.com/spond/gemini-reviews/issues/new?template=review_request.yml" target="_blank">Request a Review</a>
       <a class="btn-header" href="https://github.com/spond/gemini-reviews" target="_blank">GitHub Repository</a>
-      <a class="btn-header" href="CALIBRATION.md" target="_blank">Calibration</a>
-      <a class="btn-header" href="SECULAR_TRENDS_AND_COVARIATES.md" target="_blank">35-Yr Secular Study</a>
-      <a class="btn-header" href="PEER_REVIEW_VALUE_ADDED.md" target="_blank">Human vs. AI Review</a>
+      <a class="btn-header" href="#doc=CALIBRATION.md" onclick="event.preventDefault(); openMarkdownDoc('CALIBRATION.md', 'Empirical Calibration & Ground-Truth Study (N = 200)')">Calibration</a>
+      <a class="btn-header" href="#doc=REPEATABILITY.md" onclick="event.preventDefault(); openMarkdownDoc('REPEATABILITY.md', 'Intra-Agent Test–Retest Repeatability Study (N = 30 × 3)')">Repeatability</a>
+      <a class="btn-header" href="#doc=SECULAR_TRENDS_AND_COVARIATES.md" onclick="event.preventDefault(); openMarkdownDoc('SECULAR_TRENDS_AND_COVARIATES.md', '35-Year Secular Trends & Covariate Decomposition (1991–2025)')">35-Yr Secular Study</a>
+      <a class="btn-header" href="#doc=PEER_REVIEW_VALUE_ADDED.md" onclick="event.preventDefault(); openMarkdownDoc('PEER_REVIEW_VALUE_ADDED.md', 'Human vs. AI Peer Review Concordance & Value-Added')">Human vs. AI Review</a>
+      <a class="btn-header" href="#doc=SPOND_SELF_AUDIT.md" onclick="event.preventDefault(); openMarkdownDoc('SPOND_SELF_AUDIT.md', 'Blinded Career Self-Audit (S. Pond, N = 164)')">Self-Audit</a>
     </div>
   </div>
 </header>
@@ -1398,7 +1400,7 @@ async function openDossier(uid) {
     <strong>Citations:</strong> ${(rec.citedByCount || 0).toLocaleString()} &nbsp;|&nbsp;
     <strong>Code:</strong> <code>${escapeHtml(rec.code)}</code> (<code>${escapeHtml(rec.anon_id)}</code>)
     ${rec.url ? ` &nbsp;|&nbsp; <a href="${escapeHtml(rec.url)}" target="_blank">View Article on PubMed Central ↗</a>` : ''}
-    ${rec.review_path ? ` &nbsp;|&nbsp; <a href="${escapeHtml(rec.review_path)}" target="_blank">Raw Markdown ↗</a>` : ''}
+    ${rec.review_path ? ` &nbsp;|&nbsp; <a href="https://github.com/spond/gemini-reviews/blob/main/${escapeHtml(rec.review_path)}" target="_blank">View on GitHub ↗</a>` : ''}
     &nbsp;|&nbsp; <a class="btn-adjudicate" style="padding:0.2rem 0.55rem;font-size:0.75rem;" href="${escapeHtml(adjudicateUrl)}" target="_blank">⚖️ Submit Supplement / Request Adjudication ↗</a>
   `;
 
@@ -1429,6 +1431,49 @@ async function openDossier(uid) {
 function openDossierByAnon(anonId) {
   const rec = ALL_RECORDS.find(r => r.anon_id === anonId || r.code === anonId);
   if (rec) openDossier(rec.uid);
+}
+
+async function openMarkdownDoc(mdFile, docTitle) {
+  CURRENT_RECORD = null;
+  document.getElementById('drawerTitle').textContent = docTitle || mdFile;
+  document.getElementById('drawerBadges').innerHTML = `
+    <span class="tag-chip sel">Study Documentation</span>
+    <span class="tag-chip"><code>${escapeHtml(mdFile)}</code></span>
+  `;
+  const ghUrl = `https://github.com/spond/gemini-reviews/blob/main/${encodeURIComponent(mdFile)}`;
+  document.getElementById('drawerMeta').innerHTML = `
+    <strong>Document:</strong> <code>${escapeHtml(mdFile)}</code> &nbsp;|&nbsp;
+    <a href="${ghUrl}" target="_blank">View on GitHub ↗</a>
+  `;
+  document.getElementById('drawerScores').innerHTML = `
+    <span class="subscore-pill">Rendered Markdown Report</span>
+  `;
+  document.getElementById('drawerTabs').innerHTML = `
+    <button class="dtab-btn active" onclick="openMarkdownDoc('CALIBRATION.md', 'Empirical Calibration & Ground-Truth Study (N = 200)')">Calibration</button>
+    <button class="dtab-btn" onclick="openMarkdownDoc('REPEATABILITY.md', 'Intra-Agent Test–Retest Repeatability Study (N = 30 × 3)')">Repeatability</button>
+    <button class="dtab-btn" onclick="openMarkdownDoc('OOD_GENERALIZATION.md', 'Out-of-Domain Generalization Study')">OOD</button>
+    <button class="dtab-btn" onclick="openMarkdownDoc('PEER_REVIEW_VALUE_ADDED.md', 'Human vs. AI Peer Review Concordance & Value-Added')">Human vs. AI</button>
+    <button class="dtab-btn" onclick="openMarkdownDoc('SECULAR_TRENDS_AND_COVARIATES.md', '35-Year Secular Trends & Covariate Decomposition')">35-Yr Secular</button>
+    <button class="dtab-btn" onclick="openMarkdownDoc('SPOND_SELF_AUDIT.md', 'Blinded Career Self-Audit (S. Pond, N = 164)')">S. Pond Audit</button>
+    <button class="dtab-btn" onclick="openMarkdownDoc('ANTON_SELF_AUDIT.md', 'Blinded Career Self-Audit (A. Nekrutenko, N = 74)')">A. Nekrutenko Audit</button>
+  `;
+  document.querySelectorAll('#drawerTabs .dtab-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.getAttribute('onclick').includes(mdFile));
+  });
+
+  const body = document.getElementById('drawerBody');
+  document.getElementById('drawerBackdrop').classList.add('open');
+  history.replaceState(null, '', `#doc=${encodeURIComponent(mdFile)}`);
+  body.innerHTML = `<p style="color:var(--text-muted);">Loading <code>${escapeHtml(mdFile)}</code>...</p>`;
+  try {
+    const res = await fetch(mdFile);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const md = await res.text();
+    body.innerHTML = marked.parse(md);
+    body.scrollTop = 0;
+  } catch (err) {
+    body.innerHTML = `<p style="color:red;">Could not load <code>${escapeHtml(mdFile)}</code> (${escapeHtml(err.message)}). <a href="${ghUrl}" target="_blank">View on GitHub ↗</a></p>`;
+  }
 }
 
 function renderConcordanceHtml(c) {
@@ -1532,6 +1577,10 @@ function applyUrlHash() {
   if (params.get('review')) {
     const target = params.get('review');
     setTimeout(() => openDossierByAnon(target), 150);
+  }
+  if (params.get('doc')) {
+    const docFile = params.get('doc');
+    setTimeout(() => openMarkdownDoc(docFile, docFile), 150);
   }
 }
 
