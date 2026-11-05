@@ -38,6 +38,7 @@ Before writing, audit the manuscript against these seven diagnostic pillars:
 * **Direct and proportional:** Keep total length proportional to the manuscript's substance. State strengths and flaws plainly without theatrical adjectives (*"groundbreaking," "tour de force," "pivotal," "crucial," "compelling"*).
 * **No LLM filler or syntactic cliches:** Avoid *"delve into," "tapestry," "landscape," "it is worth noting," "importantly," "not only... but also," "serves as a testament," "crucially," "landmark,"* and formulaic compliment sandwiches.
 * **Concrete and verifiable:** Anchor every critique to specific sections, equations, tables, figures, or parameter values in the manuscript. Verify any absence claim ("not reported") against the full text, figure legends, and Data/Code Availability sections before stating it.
+* **GitHub-Native Character & Math Rendering:** Do NOT wrap ordinary numbers, percentages, ranges, units, or simple symbols in `$...$` LaTeX math delimiters (GitHub's MathJax parser breaks when multiple `$` signs or `%` characters appear in the same paragraph). Instead, write numbers, units, and standard mathematical symbols directly in clean Unicode or inline code (e.g., `82.9 µm`, `21%`, `1.43 × 10⁶`, `≤ 0.48`, `≥ 62%`, `r = 0.58`, `p = 0.0012`, `Δln L = +15.25`, `ω`, `α`, `β`, `λ`). Reserve `$...$` exclusively for multi-term equations that contain no `%` character and no `$` spacing ambiguity.
 
 ---
 
