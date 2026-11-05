@@ -96,7 +96,7 @@ Across all **`1,480` unique scrubbed full-text manuscripts** and **`1,568` gener
 ## Running Tab & Manuscript Leaderboard (1–10 Scale)
 
 <!-- LEADERBOARD_START -->
-### Interactive GitHub Pages Explorer (`1,777` Audited Manuscripts & Reviews)
+### Interactive GitHub Pages Explorer (`1,778` Audited Manuscripts & Reviews)
 
 > **[Launch Interactive Review Explorer & Graphical Dashboard (`veg.github.io/BARS`)](https://veg.github.io/BARS/)**
 >
@@ -114,7 +114,7 @@ Across all **`1,480` unique scrubbed full-text manuscripts** and **`1,568` gener
 | **35-Year Secular Trend (N=915)** | `915` | **6.57** $\pm$ 1.75 | **6.80** | **19.7%** | **41.5%** | [`SECULAR_TRENDS_AND_COVARIATES.md`](SECULAR_TRENDS_AND_COVARIATES.md) · [Explore](https://veg.github.io/BARS/#experiment=35-Year%20Secular%20Trend%20(N%3D915)) |
 | **Career Self-Audit: S. Pond (N=164)** | `164` | **7.53** $\pm$ 1.38 | **7.85** | **4.9%** | **20.7%** | [`SPOND_SELF_AUDIT.md`](SPOND_SELF_AUDIT.md) · [Explore](https://veg.github.io/BARS/#experiment=Career%20Self-Audit%3A%20S.%20Pond%20(N%3D164)) |
 | **Career Self-Audit: A. Nekrutenko (N=74)** | `74` | **7.68** $\pm$ 0.86 | **7.75** | **1.4%** | **8.1%** | [`ANTON_SELF_AUDIT.md`](ANTON_SELF_AUDIT.md) · [Explore](https://veg.github.io/BARS/#experiment=Career%20Self-Audit%3A%20A.%20Nekrutenko%20(N%3D74)) |
-| **Community / Issue-Triggered Reviews** | `3` | **7.03** $\pm$ 1.08 | **7.50** | **0.0%** | **33.3%** | [`PROTOCOL.md`](PROTOCOL.md) · [Explore](https://veg.github.io/BARS/#experiment=Community%20%2F%20Issue-Triggered%20Reviews) |
+| **Community / Issue-Triggered Reviews** | `4` | **6.65** $\pm$ 1.17 | **6.65** | **0.0%** | **50.0%** | [`PROTOCOL.md`](PROTOCOL.md) · [Explore](https://veg.github.io/BARS/#experiment=Community%20%2F%20Issue-Triggered%20Reviews) |
 
 *Complete machine-readable indices are committed in [`catalog.json`](catalog.json) (all cohorts) and [`index.json`](index.json) (calibration & issue ledger).*
 <!-- LEADERBOARD_END -->

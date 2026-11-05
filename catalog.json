@@ -1,5 +1,5 @@
 {
-  "total_records": 1777,
+  "total_records": 1778,
   "cohort_summaries": [
     {
       "experiment": "Calibration: Cohort B (Validated Controls)",
@@ -93,12 +93,12 @@
     },
     {
       "experiment": "Community / Issue-Triggered Reviews",
-      "n": 3,
-      "mean": 7.03,
-      "sd": 1.08,
-      "median": 7.5,
+      "n": 4,
+      "mean": 6.65,
+      "sd": 1.17,
+      "median": 6.65,
       "fail_50_pct": 0.0,
-      "flaw_65_pct": 33.3
+      "flaw_65_pct": 50.0
     }
   ],
   "records": [
@@ -47934,6 +47934,41 @@
       "bias_category": "",
       "verdict": "",
       "review_path": "peer_review_exp/wave1_reviews/PR_W1_31.md",
+      "human_review_path": "",
+      "has_human_review": false
+    },
+    {
+      "uid": "CAL_ISSUE_25",
+      "code": "ISSUE_25",
+      "anon_id": "ISSUE_25_BLINDED",
+      "experiment": "Community / Issue-Triggered Reviews",
+      "is_wild": true,
+      "pmcid": "",
+      "pmid": "",
+      "doi": "10.1101/2025.03.14.643253",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.03.14.643253v1",
+      "title": "Capsule-Based Single-Cell Genome Sequencing",
+      "authors": "Mullaney, D. B., Sgrizzi, S. R., Mai, D., Campbell, I., Huang, Y., Sinkunas, A., Kerr, D. L., Browning, V. E., Eisenach, H. E., Sims, J. N., Nichols, E. K., Lapointe, C. P., Amimura, Y., Harris, K., Zilionis, R., Srivatsan, S. R.",
+      "authors_short": "Mullaney et al. (Srivatsan)",
+      "journal": "bioRxiv",
+      "year": 2025,
+      "decade": "2020s",
+      "subfield": "Single-Cell Genomics",
+      "venue_tier": "Selective / Established",
+      "citedByCount": 0,
+      "overall": 5.5,
+      "rigor": 2.0,
+      "claims": 1.5,
+      "biology": 1.4,
+      "reproducibility": 0.6,
+      "sci_core_8": 4.9,
+      "tier": "Mixed / Salvageable",
+      "study_modality": "Not Annotated (Calibration)",
+      "tech_maturity": "Not Annotated (Calibration)",
+      "epistemic_stage": "Not Annotated (Calibration)",
+      "bias_category": "",
+      "verdict": "",
+      "review_path": "reviews/2025/biorxiv-643253-mullaney-capsule-based-single-cell-genome/review.md",
       "human_review_path": "",
       "has_human_review": false
     },
