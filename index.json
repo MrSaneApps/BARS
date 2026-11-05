@@ -2698,6 +2698,34 @@
     "review_path": "reviews/2020/pmc7758296-bai-exploring-utility-of-genomic-epidemiology/review.md"
   },
   {
+    "id": "BIORXIV_643253",
+    "pmid": "",
+    "doi": "10.1101/2025.03.14.643253",
+    "url": "https://www.biorxiv.org/content/10.1101/2025.03.14.643253v1",
+    "title": "Capsule-Based Single-Cell Genome Sequencing",
+    "authors": "Mullaney, D. B., Sgrizzi, S. R., Mai, D., Campbell, I., Huang, Y., Sinkunas, A., Kerr, D. L., Browning, V. E., Eisenach, H. E., Sims, J. N., Nichols, E. K., Lapointe, C. P., Amimura, Y., Harris, K., Zilionis, R., Srivatsan, S. R.",
+    "authors_short": "Mullaney et al. (Srivatsan)",
+    "venue": "bioRxiv (2025)",
+    "year": 2025,
+    "cohort": "Issue",
+    "cohort_id": "ISSUE_25",
+    "anon_id": "ISSUE_25_BLINDED",
+    "domain": "Single-Cell Genomics",
+    "reviewed_at": "2026-11-04T19:13:00-05:00",
+    "issue_number": 25,
+    "scores": {
+      "rigor": 2.1,
+      "claims": 1.5,
+      "biology": 1.4,
+      "reproducibility": 1.2,
+      "overall": 6.2
+    },
+    "tier": "Mixed / Salvageable",
+    "model": "gemini-4-argon",
+    "rubric_version": "REVIEW_TEMPLATE v1.1",
+    "review_path": "reviews/2025/biorxiv-643253-mullaney-capsule-based-single-cell-genome/review.md"
+  },
+  {
     "id": "PMC3935878",
     "pmid": "24586858",
     "doi": "10.1371/journal.pone.0089543",
@@ -3203,34 +3231,6 @@
     "model": "gemini-4-argon",
     "rubric_version": "REVIEW_TEMPLATE v1.1",
     "review_path": "reviews/2025/pmc12409340-wen-cross-trait-genome-wide-association/review.md"
-  },
-  {
-    "id": "BIORXIV_643253",
-    "pmid": "",
-    "doi": "10.1101/2025.03.14.643253",
-    "url": "https://www.biorxiv.org/content/10.1101/2025.03.14.643253v1",
-    "title": "Capsule-Based Single-Cell Genome Sequencing",
-    "authors": "Mullaney, D. B., Sgrizzi, S. R., Mai, D., Campbell, I., Huang, Y., Sinkunas, A., Kerr, D. L., Browning, V. E., Eisenach, H. E., Sims, J. N., Nichols, E. K., Lapointe, C. P., Amimura, Y., Harris, K., Zilionis, R., Srivatsan, S. R.",
-    "authors_short": "Mullaney et al. (Srivatsan)",
-    "venue": "bioRxiv (2025)",
-    "year": 2025,
-    "cohort": "Issue",
-    "cohort_id": "ISSUE_25",
-    "anon_id": "ISSUE_25_BLINDED",
-    "domain": "Single-Cell Genomics",
-    "reviewed_at": "2026-11-04T19:13:00-05:00",
-    "issue_number": 25,
-    "scores": {
-      "rigor": 2.0,
-      "claims": 1.5,
-      "biology": 1.4,
-      "reproducibility": 0.6,
-      "overall": 5.5
-    },
-    "tier": "Mixed / Salvageable",
-    "model": "gemini-4-argon",
-    "rubric_version": "REVIEW_TEMPLATE v1.1",
-    "review_path": "reviews/2025/biorxiv-643253-mullaney-capsule-based-single-cell-genome/review.md"
   },
   {
     "id": "PMC7428442",

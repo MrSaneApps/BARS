@@ -15,11 +15,11 @@
   "reviewed_at": "2026-11-04T19:13:00-05:00",
   "issue_number": 25,
   "scores": {
-    "rigor": 2.0,
+    "rigor": 2.1,
     "claims": 1.5,
     "biology": 1.4,
-    "reproducibility": 0.6,
-    "overall": 5.5
+    "reproducibility": 1.2,
+    "overall": 6.2
   },
   "tier": "Mixed / Salvageable",
   "model": "gemini-4-argon",
